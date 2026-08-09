@@ -19,6 +19,7 @@ services:
   - hostname: frontend
     type: nodejs@22
     zeropsSetup: frontend
+    buildFromGit: "https://github.com/SakshamManav/Way-Finder.git"
     enableSubdomainAccess: true
     minContainers: 1
     maxContainers: 2
@@ -27,6 +28,7 @@ services:
   - hostname: api
     type: nodejs@22
     zeropsSetup: api
+    buildFromGit: "https://github.com/SakshamManav/Way-Finder.git"
     enableSubdomainAccess: true
     minContainers: 1
     envSecrets:
@@ -39,6 +41,7 @@ services:
   - hostname: worker
     type: python@3.12
     zeropsSetup: worker
+    buildFromGit: "https://github.com/SakshamManav/Way-Finder.git"
     minContainers: 1
     maxContainers: 1
     envSecrets:
