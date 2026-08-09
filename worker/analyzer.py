@@ -58,10 +58,28 @@ ONBOARDING_EXCLUDE_RE = re.compile(
 LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logs")
 
 
+def _log_file():
+    """Resolve the analyzer log file. Falls back to a temp file when the
+    deployed directory isn't writable (read-only containers), so a logging
+    failure can never crash a job."""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logs")
+    try:
+        os.makedirs(path, exist_ok=True)
+        probe = os.path.join(path, ".wtest")
+        with open(probe, "w", encoding="utf-8"):
+            pass
+        os.remove(probe)
+        return os.path.join(path, "analyzer.log")
+    except Exception:
+        return os.path.join(tempfile.gettempdir(), "wayfinder-analyzer.log")
+
+
 def log(msg):
-    os.makedirs(LOG_PATH, exist_ok=True)
-    with open(os.path.join(LOG_PATH, "analyzer.log"), "a", encoding="utf-8") as f:
-        f.write(f"[{datetime.now().isoformat(timespec='seconds')}] {msg}\n")
+    try:
+        with open(_log_file(), "a", encoding="utf-8") as f:
+            f.write(f"[{datetime.now().isoformat(timespec='seconds')}] {msg}\n")
+    except Exception:
+        pass
     print(msg, flush=True)
 
 

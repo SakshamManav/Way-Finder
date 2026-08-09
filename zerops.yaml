@@ -1,0 +1,117 @@
+# Wayfinder — Zerops build & run recipes.
+#
+# This file defines HOW each service is built and run. The actual infrastructure
+# (service hostnames, types, secrets, public subdomains) is defined in
+# `zerops-project-import.yaml` (or the Zerops dashboard). Each `setup` name below
+# must match the `zeropsSetup` value in the import file.
+#
+# Architecture on Zerops:
+#   frontend  -> Next.js 16 SSR (standalone build), public HTTPS subdomain
+#   api       -> Express API, public HTTPS subdomain, does NOT spawn workers
+#   worker    -> Python service that polls MongoDB for queued jobs and runs the
+#                analysis pipeline (external-worker mode)
+#   redis     -> managed Valkey (Redis-compatible), injected as env refs below
+#   MongoDB   -> NOT offered on Zerops; use MongoDB Atlas, URL passed as secret
+zerops:
+  # ---------------------------------------------------------------------------
+  # Next.js frontend (SSR, standalone output)
+  # ---------------------------------------------------------------------------
+  - setup: frontend
+    build:
+      base: nodejs@22
+      buildCommands:
+        - cd frontend && npm ci && npm run build
+        # Assemble the standalone runtime layout (same shape as the official
+        # Next.js standalone Docker image) so one deployFiles entry covers it.
+        - mkdir -p ./app
+        - cp -r frontend/.next/standalone/. ./app/
+        - mkdir -p ./app/.next
+        - cp -r frontend/.next/static ./app/.next/static
+        - cp -r frontend/public ./app/public
+      envVariables:
+        # Public HTTPS URL of the api service (copy from the dashboard after
+        # import). Alternatively set a dashboard service env var named
+        # RUNTIME_NEXT_PUBLIC_API_URL — the RUNTIME_ prefix injects it at build
+        # time without editing this file.
+        NEXT_PUBLIC_API_URL: https://REPLACE-WITH-YOUR-API-URL
+      deployFiles:
+        - app/~
+      cache:
+        - frontend/node_modules
+
+    deploy:
+      readinessCheck:
+        httpGet:
+          port: 3000
+          path: /
+
+    run:
+      base: nodejs@22
+      ports:
+        - port: 3000
+          httpSupport: true
+      start: node server.js
+
+  # ---------------------------------------------------------------------------
+  # Express API (queue + report service)
+  # ---------------------------------------------------------------------------
+  - setup: api
+    build:
+      base: nodejs@22
+      buildCommands:
+        - npm --prefix api ci --omit=dev
+      deployFiles:
+        - api/src
+        - api/package.json
+        - api/node_modules
+      cache:
+        - api/node_modules
+
+    deploy:
+      readinessCheck:
+        httpGet:
+          port: 4000
+          path: /health
+
+    run:
+      base: nodejs@22
+      ports:
+        - port: 4000
+          httpSupport: true
+      envVariables:
+        # VALKEY_EXTERNAL_WORKER=true makes the API queue jobs in MongoDB and
+        # let the separate `worker` service run them.
+        WAYFINDER_EXTERNAL_WORKER: "true"
+        WAYFINDER_REDIS_HOST: ${redis_hostname}
+        WAYFINDER_REDIS_PORT: ${redis_port}
+        WAYFINDER_REDIS_PASSWORD: ${redis_password}
+      start: node api/src/server.js
+
+  # ---------------------------------------------------------------------------
+  # Python analysis worker (polls MongoDB for queued jobs)
+  # ---------------------------------------------------------------------------
+  - setup: worker
+    build:
+      base: python@3.12
+      deployFiles:
+        - worker/analyzer.py
+        - worker/ai_rank.py
+        - worker/db.py
+        - worker/envutil.py
+        - worker/metrics.py
+        - worker/poller.py
+        - worker/requirements.txt
+      addToRunPrepare:
+        - worker/requirements.txt
+      cache:
+        - worker/__pycache__
+
+    run:
+      base: python@3.12
+      prepareCommands:
+        - python3 -m pip install --ignore-installed -r worker/requirements.txt
+      envVariables:
+        WAYFINDER_REDIS_HOST: ${redis_hostname}
+        WAYFINDER_REDIS_PORT: ${redis_port}
+        WAYFINDER_REDIS_PASSWORD: ${redis_password}
+      start: python3 worker/poller.py

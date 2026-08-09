@@ -30,9 +30,15 @@ function alog(...args) {
 // workers inherit the loaded vars. Real env always wins over the file.
 dotenv.config({ path: path.resolve(__dirname, "../..", ".env") });
 
+const EXTERNAL_WORKER =
+  (process.env.WAYFINDER_EXTERNAL_WORKER || "").trim().toLowerCase() === "true";
+
 const app = express();
 app.use(cors());
 app.use(express.json());
+
+// Health probe for load balancers / platform readiness checks.
+app.get("/health", (_req, res) => res.json({ ok: true }));
 
 // ---------------------------------------------------------------------------
 // helpers
@@ -109,8 +115,14 @@ app.post("/api/analyze", async (req, res) => {
       status: "queued",
       created_at: new Date(),
     });
-    spawnWorker(insert.insertedId, url);
-    alog(`  queued  jobId=${insert.insertedId}  worker spawned`);
+    if (EXTERNAL_WORKER) {
+      // A separate long-running worker service polls MongoDB for queued jobs
+      // and runs the analysis (used on Zerops). No child process here.
+      alog(`  queued  jobId=${insert.insertedId}  (external worker will pick it up)`);
+    } else {
+      spawnWorker(insert.insertedId, url);
+      alog(`  queued  jobId=${insert.insertedId}  worker spawned`);
+    }
     res.json({ jobId: insert.insertedId.toString(), cached: false });
   } catch (e) {
     alog(`  ERROR ${e.message}`);

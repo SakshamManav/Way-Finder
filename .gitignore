@@ -13,5 +13,12 @@ __pycache__/
 *.pyc
 .venv/
 
+# runtime logs
+*.log
+logs/
+
 # Private project notes — never commit or push
 PROJECT-NOTES.md
+
+# Real-secret variant of the Zerops import — paste into dashboard only
+zerops-project-import.local.yaml

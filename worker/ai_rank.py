@@ -31,6 +31,8 @@ import time
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
+import tempfile
+
 import db
 import envutil
 
@@ -69,10 +71,26 @@ AI_CATEGORIES = {
 LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logs")
 
 
+def _log_file():
+    """Fall back to a temp log file when the deployed directory isn't writable
+    (read-only containers) so a logging failure can never crash a job."""
+    try:
+        os.makedirs(LOG_PATH, exist_ok=True)
+        probe = os.path.join(LOG_PATH, ".wtest")
+        with open(probe, "w", encoding="utf-8"):
+            pass
+        os.remove(probe)
+        return os.path.join(LOG_PATH, "analyzer.log")
+    except Exception:
+        return os.path.join(tempfile.gettempdir(), "wayfinder-analyzer.log")
+
+
 def log(msg):
-    os.makedirs(LOG_PATH, exist_ok=True)
-    with open(os.path.join(LOG_PATH, "analyzer.log"), "a", encoding="utf-8") as f:
-        f.write(f"[{time.strftime('%Y-%m-%dT%H:%M:%S')}] {msg}\n")
+    try:
+        with open(_log_file(), "a", encoding="utf-8") as f:
+            f.write(f"[{time.strftime('%Y-%m-%dT%H:%M:%S')}] {msg}\n")
+    except Exception:
+        pass
     print(msg, flush=True)
 
 

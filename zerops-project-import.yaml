@@ -1,0 +1,51 @@
+# Wayfinder — Zerops project import (infrastructure definition).
+#
+# How to use:
+#   1. Create a MongoDB Atlas free cluster and copy its connection string.
+#   2. Replace the placeholder values below (<user>, <password>, <cluster>,
+#      sk-or-v1-...).
+#   3. In the Zerops dashboard: Projects → Import a project → paste this file.
+#      Or:  zcli project import -f zerops-project-import.yaml
+#   4. After import, copy the public HTTPS URL of the `api` service from the
+#      dashboard and set it as NEXT_PUBLIC_API_URL (see zerops.yaml) — or set a
+#      dashboard service env var RUNTIME_NEXT_PUBLIC_API_URL and re-deploy.
+project:
+  name: wayfinder
+  tags:
+    - wayfinder
+
+services:
+  # ---- Next.js frontend (public) ----------------------------------------
+  - hostname: frontend
+    type: nodejs@22
+    zeropsSetup: frontend
+    enableSubdomainAccess: true
+    minContainers: 1
+    maxContainers: 2
+
+  # ---- Express API (public, jobs are queued to MongoDB) ------------------
+  - hostname: api
+    type: nodejs@22
+    zeropsSetup: api
+    enableSubdomainAccess: true
+    minContainers: 1
+    envSecrets:
+      # MongoDB Atlas connection string — Zerops has no managed MongoDB.
+      WAYFINDER_MONGO_URL: "mongodb+srv://<user>:<password>@<cluster>.mongodb.net/wayfinder?retryWrites=true&w=majority"
+      # OpenRouter key for the optional AI ranking pass (leave empty to disable).
+      OPENROUTER_API_KEY: "sk-or-v1-your-key-here"
+
+  # ---- Python analysis worker (internal, exactly one container) ----------
+  - hostname: worker
+    type: python@3.12
+    zeropsSetup: worker
+    minContainers: 1
+    maxContainers: 1
+    envSecrets:
+      WAYFINDER_MONGO_URL: "mongodb+srv://<user>:<password>@<cluster>.mongodb.net/wayfinder?retryWrites=true&w=majority"
+      OPENROUTER_API_KEY: "sk-or-v1-your-key-here"
+
+  # ---- Managed Valkey (Redis-compatible) for progress ticks --------------
+  - hostname: redis
+    type: valkey@7.2
+    mode: NON_HA

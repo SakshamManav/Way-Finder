@@ -6,6 +6,7 @@ and lightweight progress ticks to Redis, which the Express API polls.
 """
 import json
 import os
+from datetime import datetime
 
 from pymongo import MongoClient
 from redis import Redis
@@ -13,6 +14,7 @@ from redis import Redis
 MONGO_URL = os.environ.get("WAYFINDER_MONGO_URL", "mongodb://127.0.0.1:27017")
 REDIS_HOST = os.environ.get("WAYFINDER_REDIS_HOST", "127.0.0.1")
 REDIS_PORT = int(os.environ.get("WAYFINDER_REDIS_PORT", "6379"))
+REDIS_PASSWORD = os.environ.get("WAYFINDER_REDIS_PASSWORD") or None
 
 _client = MongoClient(MONGO_URL, serverSelectionTimeoutMS=5000)
 _db = _client["wayfinder"]
@@ -24,8 +26,8 @@ flagged_spikes = _db["flagged_spikes"]
 ownership_decay = _db["ownership_decay"]
 onboarding_path = _db["onboarding_path"]
 
-_redis = Redis(host=REDIS_HOST, port=REDIS_PORT, decode_responses=True,
-               socket_connect_timeout=0.5)
+_redis = Redis(host=REDIS_HOST, port=REDIS_PORT, password=REDIS_PASSWORD,
+               decode_responses=True, socket_connect_timeout=0.5)
 _redis_ok = None  # None = unknown, True/False cached
 
 
@@ -50,8 +52,9 @@ def ping():
 
 def set_status(repo_id, status, **extra):
     """Update the repo/job status doc. This is the single source of truth for
-    job state; progress ticks live in Redis on top of it."""
-    doc = {"status": status}
+    job state; progress ticks live in Redis on top of it. `updated_at` is a
+    heartbeat so an external poller can reclaim jobs stuck in "running"."""
+    doc = {"status": status, "updated_at": datetime.utcnow()}
     doc.update(extra)
     repos.update_one({"_id": repo_id}, {"$set": doc})
 

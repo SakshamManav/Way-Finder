@@ -110,3 +110,11 @@
 [2026-08-09T12:24:20.708Z]   queued  jobId=6a787174c09110864961b615  worker spawned
 [2026-08-09T12:24:55.552Z] report served  repoId=6a787174c09110864961b615  url=https://github.com/SakshamManav/Instagram-Clone
 [2026-08-09T12:24:55.624Z] report served  repoId=6a787174c09110864961b615  url=https://github.com/SakshamManav/Instagram-Clone
+[2026-08-09T12:51:30.465Z] analyze requested  url=https://github.com/SakshamManav/Instagram-Clone  force=false
+[2026-08-09T12:51:30.518Z]   dedupe: already analyzed  jobId=6a787174c09110864961b615  (cached report served)
+[2026-08-09T12:51:33.619Z] report served  repoId=6a787174c09110864961b615  url=https://github.com/SakshamManav/Instagram-Clone
+[2026-08-09T12:51:33.694Z] report served  repoId=6a787174c09110864961b615  url=https://github.com/SakshamManav/Instagram-Clone
+[2026-08-09T13:15:48.399Z] analyze requested  url=https://github.com/SakshamManav/Instagram-Clone  force=false
+[2026-08-09T13:15:48.655Z]   queued  jobId=6a787d8438853e9f76dcc88c  worker spawned
+[2026-08-09T13:16:25.643Z] report served  repoId=6a787d8438853e9f76dcc88c  url=https://github.com/SakshamManav/Instagram-Clone
+[2026-08-09T13:16:25.688Z] report served  repoId=6a787d8438853e9f76dcc88c  url=https://github.com/SakshamManav/Instagram-Clone
