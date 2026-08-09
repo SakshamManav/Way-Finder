@@ -118,11 +118,15 @@ Open http://localhost:3000, paste a GitHub URL (try `expressjs/express`, `axios/
 
 ## Screenshots
 
-> TODO — screenshots to be added (landing page, analysis progress, spike/decay report, onboarding checklist, dependency graph).
+<img width="1904" height="974" alt="image" src="https://github.com/user-attachments/assets/ed71066e-9988-414f-acc3-284011c846b6" />
+<img width="1895" height="975" alt="image" src="https://github.com/user-attachments/assets/aad0bfc9-3a85-43ef-ac01-9ede45340026" />
+<img width="1893" height="975" alt="image" src="https://github.com/user-attachments/assets/dd0a0ead-77ac-47f3-96f1-4a06f328ea45" />
+<img width="1844" height="881" alt="Screenshot 2026-08-09 182255" src="https://github.com/user-attachments/assets/d007da99-2c2c-4a46-b003-3d35b2216f63" />
+
 
 ## Live demo
 
-> TODO — not deployed yet. Link will go here.
+https://frontend-2dcc-3000.prg1.zerops.app/
 
 ## Known limitations
 
