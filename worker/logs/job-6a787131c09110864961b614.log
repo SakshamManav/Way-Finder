@@ -1,0 +1,12 @@
+analyzing https://github.com/SakshamManav/Mini-Database-Using-Cpp
+  phase clone: 4.5s
+  phase sampling-prep: 0.2s (commits=10)
+  phase sampling: 0.1s
+  spikes: 0
+  phase spikes: 0.0s
+  file_metrics: 1, decay flags: 0
+  phase ownership: 0.2s
+  onboarding files: 0
+  phase onboarding: 0.0s
+  phase ai: 0.0s
+TOTAL: 5.0s

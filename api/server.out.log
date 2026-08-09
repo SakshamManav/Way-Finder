@@ -1,0 +1,9 @@
+[redis] embedded redis up on 6379
+[api] listening on http://localhost:4000
+[2026-08-09T09:16:14.763Z] analyze requested  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform  force=true
+[2026-08-09T09:16:14.881Z]   force re-analyze: purged previous run  jobId=6a7771b00be3d1756ef3a443
+[2026-08-09T09:16:14.958Z]   queued  jobId=6a78455e2b251e538934458c  worker spawned
+[2026-08-09T09:17:19.855Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T09:17:20.116Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T09:17:32.279Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T09:17:32.389Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform

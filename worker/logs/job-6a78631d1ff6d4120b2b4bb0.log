@@ -1,0 +1,26 @@
+analyzing https://github.com/deepseek-ai/deepseek-v3
+  phase clone: 3.1s
+  phase sampling-prep: 0.2s (commits=73)
+  phase sampling: 3.3s
+  spikes: 0
+  phase spikes: 0.0s
+  file_metrics: 5, decay flags: 0
+  phase ownership: 0.1s
+  onboarding files: 5
+  phase onboarding: 0.0s
+ai-call inference/kernel.py status=200 attempts=1 ms=1562 cat=core-business-logic score=8.0
+ai-call inference/convert.py status=200 attempts=1 ms=1444 cat=reusable-utility score=4.0
+ai-call inference/model.py status=200 attempts=1 ms=1096 cat=core-business-logic score=8.0
+ai-call inference/generate.py status=200 attempts=1 ms=1548 cat=core-business-logic score=8.0
+ai-call inference/fp8_cast_bf16.py status=200 attempts=1 ms=2394 cat=core-business-logic score=7.0
+  ai-score distribution (n=5): {4.0: 1, 7.0: 1, 8.0: 3}
+  pure-import-count order (reference): inference/fp8_cast_bf16.py(0), inference/kernel.py(0), inference/convert.py(0), inference/generate.py(0), inference/model.py(0)
+  top-12 pre-blend (rank | indeg | norm_struct | raw_ai | norm_ai | final | path):
+    # 1 |   0 | 0.000 | 8.0 |  0.800 | 0.4000 | inference/kernel.py
+    # 2 |   0 | 0.000 | 8.0 |  0.800 | 0.4000 | inference/generate.py
+    # 3 |   0 | 0.000 | 8.0 |  0.800 | 0.4000 | inference/model.py
+    # 4 |   0 | 0.000 | 7.0 |  0.700 | 0.3500 | inference/fp8_cast_bf16.py
+    # 5 |   0 | 0.000 | 4.0 |  0.400 | 0.2000 | inference/convert.py
+  ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 5, 'classified_count': 5, 'fallback_count': 0, 'duration_ms': 2600, 'max_concurrent': 5, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'normalized-0to1', 'normalized': True, 'blended': True}
+  phase ai: 2.6s
+TOTAL: 9.3s

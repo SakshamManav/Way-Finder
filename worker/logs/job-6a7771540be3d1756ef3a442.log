@@ -1,0 +1,11 @@
+analyzing https://github.com/deepseek-ai/DeepEP
+  phase clone: 7.5s
+  phase sampling-prep: 0.1s (commits=253)
+  phase sampling: 3.2s
+  spikes: 1
+  phase spikes: 0.0s
+  file_metrics: 30, decay flags: 16
+  phase ownership: 0.1s
+  onboarding files: 15
+  phase onboarding: 0.1s
+TOTAL: 11.0s

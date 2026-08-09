@@ -1,0 +1,53 @@
+analyzing https://github.com/SakshamManav/Instagram-Clone
+  phase clone: 4.3s
+  phase sampling-prep: 0.2s (commits=22)
+  phase sampling: 1.3s
+  spikes: 0
+  phase spikes: 0.0s
+  file_metrics: 34, decay flags: 34
+  phase ownership: 0.2s
+  onboarding files: 33
+  phase onboarding: 0.4s
+ai-call backend/models/Content.js status=200 attempts=1 ms=1408 cat=core-business-logic score=6.0
+ai-call frontend/src/Context/Usercontext.js status=200 attempts=1 ms=1631 cat=core-business-logic score=8.0
+ai-call backend/models/Websocketmodel.js status=200 attempts=1 ms=1176 cat=core-business-logic score=5.0
+ai-call backend/models/user.js status=200 attempts=1 ms=1433 cat=core-business-logic score=6.0
+ai-call frontend/src/components/Alert.js status=200 attempts=1 ms=1123 cat=reusable-utility score=4.0
+ai-call backend/middleware/authenticateUser.js status=200 attempts=1 ms=1134 cat=infrastructure score=6.0
+ai-call backend/firebase.js status=200 attempts=1 ms=1888 cat=infrastructure score=6.0
+ai-call frontend/src/components/Messages.js status=200 attempts=1 ms=3252 cat=reusable-utility score=4.0
+ai-call frontend/src/components/Upload.js status=200 attempts=1 ms=1640 cat=core-business-logic score=6.0
+ai-call frontend/src/components/Login.js status=200 attempts=1 ms=2316 cat=core-business-logic score=6.0
+ai-call frontend/src/components/FollowersAndFollowingPopup.js status=200 attempts=1 ms=2712 cat=reusable-utility score=4.0
+ai-call frontend/src/components/Signup.js status=200 attempts=1 ms=1271 cat=core-business-logic score=6.0
+ai-call frontend/src/components/Rightsection.js status=200 attempts=1 ms=2300 cat=core-business-logic score=6.0
+ai-call frontend/src/components/Middlesection.js status=200 attempts=1 ms=2609 cat=core-business-logic score=6.0
+ai-call frontend/src/App.js status=200 attempts=1 ms=1855 cat=core-business-logic score=6.0
+ai-call frontend/src/components/Profile.js status=200 attempts=1 ms=1085 cat=core-business-logic score=6.0
+ai-call frontend/src/components/Chatspage.js status=200 attempts=1 ms=1958 cat=core-business-logic score=6.0
+ai-call frontend/src/components/Explore.js status=200 attempts=1 ms=1223 cat=reusable-utility score=2.0
+ai-call frontend/src/components/Reels.js status=200 attempts=1 ms=1496 cat=reusable-utility score=2.0
+ai-call frontend/src/components/Search.js status=200 attempts=1 ms=1842 cat=reusable-utility score=2.0
+ai-call backend/db.js status=200 attempts=1 ms=1814 cat=infrastructure score=4.0
+ai-call frontend/src/index.js status=200 attempts=1 ms=4687 cat=infrastructure score=4.0
+ai-call backend/routes/Websocket.js status=200 attempts=1 ms=4080 cat=core-business-logic score=6.0
+ai-call frontend/src/components/Post.js status=200 attempts=1 ms=10208 cat=core-business-logic score=6.0
+ai-call backend/routes/Content.js status=200 attempts=1 ms=10993 cat=core-business-logic score=6.0
+  ai-score distribution (n=25): {2.0: 3, 4.0: 5, 5.0: 1, 6.0: 15, 8.0: 1}
+  pure-import-count order (reference): frontend/src/Context/Usercontext.js(13), backend/models/Content.js(3), backend/models/user.js(2), backend/models/Websocketmodel.js(2), frontend/src/components/Alert.js(2), backend/firebase.js(2), backend/middleware/authenticateUser.js(2), frontend/src/components/Messages.js(2), frontend/src/components/Upload.js(2), frontend/src/components/Login.js(2)
+  top-12 (rank | indeg | norm_struct | raw_ai | norm_ai | final=ai | path):
+    # 1 |  13 | 1.000 | 8.0 |  0.800 | 8.0000 | frontend/src/Context/Usercontext.js
+    # 2 |   3 | 0.231 | 6.0 |  0.600 | 6.0000 | backend/models/Content.js
+    # 3 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | backend/models/user.js
+    # 4 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | backend/firebase.js
+    # 5 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | backend/middleware/authenticateUser.js
+    # 6 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Upload.js
+    # 7 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Login.js
+    # 8 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Middlesection.js
+    # 9 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Rightsection.js
+    #10 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Signup.js
+    #11 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/App.js
+    #12 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Chatspage.js
+  ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 26390, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'ai-primary-structural-tiebreak', 'normalized': True, 'blended': True}
+  phase ai: 26.4s
+TOTAL: 32.7s

@@ -1,0 +1,22 @@
+analyzing https://github.com/student-care-tool/SchoolFlow
+FAILED:
+Traceback (most recent call last):
+  File "C:\Users\hp\OneDrive\Desktop\New folder (2)\worker\analyzer.py", line 416, in run
+    repo_path = clone_repo(url, tmp)
+  File "C:\Users\hp\OneDrive\Desktop\New folder (2)\worker\analyzer.py", line 86, in clone_repo
+    git.Repo.clone_from(url, target, depth=None)
+  File "C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\git\repo\base.py", line 1525, in clone_from
+    return cls._clone(
+  File "C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\git\repo\base.py", line 1396, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\git\util.py", line 504, in finalize_process
+    proc.wait(**kwargs)
+  File "C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\git\cmd.py", line 834, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v -- https://github.com/student-care-tool/SchoolFlow C:\Users\hp\AppData\Local\Temp\pathfinder-eg7jleni\SchoolFlow
+  stderr: 'Cloning into 'C:\Users\hp\AppData\Local\Temp\pathfinder-eg7jleni\SchoolFlow'...
+remote: Repository not found.
+fatal: repository 'https://github.com/student-care-tool/SchoolFlow/' not found
+'
+

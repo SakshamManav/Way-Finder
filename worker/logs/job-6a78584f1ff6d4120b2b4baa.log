@@ -1,0 +1,38 @@
+analyzing https://github.com/suzyeaston/suzyeastonca
+  phase clone: 9.7s
+  phase sampling-prep: 0.2s (commits=1473)
+  phase sampling: 3.9s
+  spikes: 7
+  phase spikes: 0.0s
+  file_metrics: 75, decay flags: 36
+  phase ownership: 0.2s
+  onboarding files: 34
+  phase onboarding: 0.4s
+ai-call js/loop-lab.js status=200 attempts=1 ms=1455 cat=core-business-logic score=8.0
+ai-call scripts/sync-cov-open-data.js status=200 attempts=1 ms=1250 cat=core-business-logic score=8.0
+ai-call scripts/generate-gastown-world.js status=200 attempts=1 ms=2070 cat=core-business-logic score=8.0
+ai-call js/bio-sections.js status=200 attempts=1 ms=1215 cat=core-business-logic score=4.0
+ai-call js/title-color.js status=200 attempts=1 ms=1218 cat=core-business-logic score=5.0
+ai-call js/gastown-dialog.js status=200 attempts=1 ms=2474 cat=reusable-utility score=8.0
+ai-call js/gastown-building-normalizer.js status=200 attempts=1 ms=2833 cat=core-business-logic score=8.0
+ai-call playwright.config.js status=200 attempts=1 ms=2052 cat=config score=7.0
+ai-call js/now-playing.js status=200 attempts=1 ms=1302 cat=core-business-logic score=5.0
+ai-call js/piano-script.js status=200 attempts=1 ms=1505 cat=core-business-logic score=5.0
+ai-call src/lib/wordpress.ts status=200 attempts=1 ms=1512 cat=core-business-logic score=7.0
+ai-call js/game-init.js status=200 attempts=1 ms=1478 cat=core-business-logic score=7.0
+ai-call scripts/lo-remote.py status=200 attempts=1 ms=1369 cat=infrastructure score=7.0
+ai-call js/home-arcade-start.js status=200 attempts=1 ms=1951 cat=core-business-logic score=7.0
+ai-call src/islands/HeroHarbor.tsx status=200 attempts=1 ms=1699 cat=core-business-logic score=7.0
+ai-call scripts/clear-lo-logs-ssh.py status=200 attempts=1 ms=1484 cat=core-business-logic score=7.0
+ai-call scripts/build-gastown-world.js status=200 attempts=1 ms=1503 cat=core-business-logic score=8.0
+ai-call scripts/deploy-lousy-outages-ssh.py status=200 attempts=1 ms=1532 cat=infrastructure score=7.0
+ai-call js/starfield.js status=200 attempts=1 ms=1315 cat=core-business-logic score=7.0
+ai-call js/bio-crawl.js status=200 attempts=1 ms=1612 cat=core-business-logic score=7.0
+ai-call js/hero-ship-drag.js status=200 attempts=1 ms=1992 cat=core-business-logic score=8.0
+ai-call js/home-city-scanner.js status=200 attempts=1 ms=2649 cat=core-business-logic score=8.0
+ai-call js/hero-galaga.js status=200 attempts=1 ms=6946 cat=core-business-logic score=8.0
+ai-call js/home-hero-map.js status=200 attempts=1 ms=6782 cat=core-business-logic score=8.0
+ai-call js/hockey-game.js status=200 attempts=1 ms=13094 cat=core-business-logic score=8.0
+  ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 26251, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blended': True}
+  phase ai: 26.3s
+TOTAL: 40.7s

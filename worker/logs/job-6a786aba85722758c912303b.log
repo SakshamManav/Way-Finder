@@ -1,0 +1,53 @@
+analyzing https://github.com/SakshamManav/Interviewly
+  phase clone: 2.7s
+  phase sampling-prep: 0.1s (commits=2)
+  phase sampling: 0.2s
+  spikes: 0
+  phase spikes: 0.0s
+  file_metrics: 45, decay flags: 45
+  phase ownership: 0.1s
+  onboarding files: 44
+  phase onboarding: 0.3s
+ai-call Client/src/feature/auth/authAPI.js status=200 attempts=1 ms=1529 cat=core-business-logic score=8.0
+ai-call Client/src/Components/loader.js status=200 attempts=1 ms=1518 cat=reusable-utility score=3.0
+ai-call server/model/User.js status=200 attempts=1 ms=1417 cat=core-business-logic score=6.0
+ai-call Client/src/App.js status=200 attempts=1 ms=1233 cat=core-business-logic score=6.0
+ai-call Client/src/feature/interview/interviewAPI.js status=200 attempts=1 ms=1832 cat=core-business-logic score=6.0
+ai-call server/model/interview.js status=200 attempts=1 ms=1538 cat=core-business-logic score=8.0
+ai-call server/middleware/authentication.js status=200 attempts=1 ms=1440 cat=core-business-logic score=7.0
+ai-call server/middleware/rateLimiter.js status=200 attempts=1 ms=1842 cat=core-business-logic score=7.0
+ai-call Client/src/reportWebVitals.js status=200 attempts=1 ms=1110 cat=reusable-utility score=3.0
+ai-call server/db/db.js status=200 attempts=1 ms=1667 cat=infrastructure score=5.0
+ai-call Client/src/redux/store.js status=200 attempts=1 ms=1580 cat=core-business-logic score=6.0
+ai-call server/sockets/CodeEditor.js status=200 attempts=1 ms=1169 cat=core-business-logic score=6.0
+ai-call Client/src/sockets/socket.js status=200 attempts=1 ms=1621 cat=core-business-logic score=6.0
+ai-call server/routes/interview.js status=200 attempts=1 ms=1486 cat=core-business-logic score=6.0
+ai-call server/index.js status=200 attempts=1 ms=1074 cat=infrastructure score=7.0
+ai-call Client/src/index.js status=200 attempts=1 ms=1283 cat=infrastructure score=7.0
+ai-call server/routes/auth.js status=200 attempts=1 ms=1260 cat=core-business-logic score=7.0
+ai-call server/sockets/interview.js status=200 attempts=1 ms=1298 cat=core-business-logic score=6.0
+ai-call server/sockets/socket.js status=200 attempts=1 ms=1103 cat=infrastructure score=6.0
+ai-call Client/src/Components/authWrapper.js status=200 attempts=1 ms=1822 cat=core-business-logic score=6.0
+ai-call Client/src/feature/auth/authSlice.js status=200 attempts=1 ms=1983 cat=core-business-logic score=8.0
+ai-call Client/src/Components/Navbar.js status=200 attempts=1 ms=2570 cat=reusable-utility score=4.0
+ai-call Client/src/feature/interview/interviewSlice.js status=200 attempts=1 ms=4750 cat=core-business-logic score=6.0
+ai-call Client/src/Components/InterviewerNotesCard.js status=200 attempts=1 ms=11338 cat=core-business-logic score=6.0
+ai-call Client/src/Pages/Login.js status=200 attempts=1 ms=13657 cat=core-business-logic score=6.0
+  ai-score distribution (n=25): {3.0: 2, 4.0: 1, 5.0: 1, 6.0: 13, 7.0: 5, 8.0: 3}
+  pure-import-count order (reference): Client/src/feature/auth/authAPI.js(6), Client/src/Components/loader.js(5), Client/src/feature/interview/interviewAPI.js(4), server/model/User.js(3), server/model/interview.js(3), Client/src/App.js(3), server/middleware/authentication.js(2), server/middleware/rateLimiter.js(2), Client/src/reportWebVitals.js(1), Client/src/redux/store.js(1)
+  top-12 (rank | indeg | norm_struct | raw_ai | norm_ai | final=ai | path):
+    # 1 |   6 | 1.000 | 8.0 |  0.800 | 8.0000 | Client/src/feature/auth/authAPI.js
+    # 2 |   3 | 0.500 | 8.0 |  0.800 | 8.0000 | server/model/interview.js
+    # 3 |   1 | 0.167 | 8.0 |  0.800 | 8.0000 | Client/src/feature/auth/authSlice.js
+    # 4 |   2 | 0.333 | 7.0 |  0.700 | 7.0000 | server/middleware/authentication.js
+    # 5 |   2 | 0.333 | 7.0 |  0.700 | 7.0000 | server/middleware/rateLimiter.js
+    # 6 |   1 | 0.167 | 7.0 |  0.700 | 7.0000 | server/index.js
+    # 7 |   1 | 0.167 | 7.0 |  0.700 | 7.0000 | Client/src/index.js
+    # 8 |   1 | 0.167 | 7.0 |  0.700 | 7.0000 | server/routes/auth.js
+    # 9 |   4 | 0.667 | 6.0 |  0.600 | 6.0000 | Client/src/feature/interview/interviewAPI.js
+    #10 |   3 | 0.500 | 6.0 |  0.600 | 6.0000 | server/model/User.js
+    #11 |   3 | 0.500 | 6.0 |  0.600 | 6.0000 | Client/src/App.js
+    #12 |   1 | 0.167 | 6.0 |  0.600 | 6.0000 | Client/src/redux/store.js
+  ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 25975, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'ai-primary-structural-tiebreak', 'normalized': True, 'blended': True}
+  phase ai: 26.0s
+TOTAL: 29.5s

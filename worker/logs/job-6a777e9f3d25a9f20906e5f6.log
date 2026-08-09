@@ -1,0 +1,11 @@
+analyzing https://github.com/SakshamManav/AI-interview
+  phase clone: 4.3s
+  phase sampling-prep: 0.1s (commits=21)
+  phase sampling: 1.4s
+  spikes: 0
+  phase spikes: 0.0s
+  file_metrics: 123, decay flags: 15
+  phase ownership: 0.1s
+  onboarding files: 79
+  phase onboarding: 0.4s
+TOTAL: 6.3s

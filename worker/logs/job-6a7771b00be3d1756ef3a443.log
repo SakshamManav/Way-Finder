@@ -1,0 +1,11 @@
+analyzing https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+  phase clone: 3.4s
+  phase sampling-prep: 0.1s (commits=46)
+  phase sampling: 5.8s
+  spikes: 6
+  phase spikes: 0.0s
+  file_metrics: 685, decay flags: 684
+  phase ownership: 0.1s
+  onboarding files: 72
+  phase onboarding: 0.3s
+TOTAL: 9.8s

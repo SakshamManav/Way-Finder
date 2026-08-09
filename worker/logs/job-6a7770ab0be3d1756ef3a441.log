@@ -1,0 +1,11 @@
+analyzing https://github.com/aza-ali/awesome-ai-product-management
+  phase clone: 1.7s
+  phase sampling-prep: 0.1s (commits=8)
+  phase sampling: 0.1s
+  spikes: 0
+  phase spikes: 0.0s
+  file_metrics: 0, decay flags: 0
+  phase ownership: 0.1s
+  onboarding files: 0
+  phase onboarding: 0.0s
+TOTAL: 2.0s

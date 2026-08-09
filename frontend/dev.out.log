@@ -1,0 +1,27 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.29.16:3000
+✓ Ready in 2.0s
+✓ Running next.config.ts took 113ms
+
+ GET /repo/6a7771b00be3d1756ef3a443 200 in 4.0s (next.js: 3.4s, application-code: 615ms)
+ GET /repo/6a7771b00be3d1756ef3a443 200 in 2.9s (next.js: 2.3s, application-code: 617ms)
+ GET /repo/6a782b35cd0e29a0a7dea8b7 200 in 132ms (next.js: 43ms, application-code: 89ms)
+ GET /repo/6a782b35cd0e29a0a7dea8b7 200 in 130ms (next.js: 37ms, application-code: 93ms)
+ GET /repo/6a782b35cd0e29a0a7dea8b7 200 in 136ms (next.js: 48ms, application-code: 87ms)
+ GET /repo/6a782b35cd0e29a0a7dea8b7 200 in 188ms (next.js: 29ms, application-code: 159ms)
+ GET /repo/6a7771b00be3d1756ef3a443 200 in 264ms (next.js: 77ms, application-code: 187ms)
+ GET / 200 in 293ms (next.js: 167ms, application-code: 127ms)
+ GET /analyze/6a7771b00be3d1756ef3a443 200 in 1388ms (next.js: 1329ms, application-code: 59ms)
+ GET /repo/6a7771b00be3d1756ef3a443 200 in 87ms (next.js: 31ms, application-code: 56ms)
+ GET / 200 in 60ms (next.js: 13ms, application-code: 48ms)
+ GET /analyze/6a77686814d90f35a0a8ec11 200 in 75ms (next.js: 28ms, application-code: 47ms)
+ GET /repo/6a77686814d90f35a0a8ec11 200 in 73ms (next.js: 25ms, application-code: 49ms)
+ GET / 200 in 58ms (next.js: 14ms, application-code: 44ms)
+ GET /analyze/6a7771b00be3d1756ef3a443 200 in 220ms (next.js: 45ms, application-code: 175ms)
+ GET /repo/6a7771b00be3d1756ef3a443 200 in 80ms (next.js: 24ms, application-code: 56ms)
+[?25h

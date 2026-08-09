@@ -1,0 +1,53 @@
+analyzing https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+  phase clone: 6.6s
+  phase sampling-prep: 0.2s (commits=46)
+  phase sampling: 11.6s
+  spikes: 6
+  phase spikes: 0.0s
+  file_metrics: 685, decay flags: 684
+  phase ownership: 0.2s
+  onboarding files: 72
+  phase onboarding: 0.7s
+ai-call client/app/admin/components/AuthWrapper.js status=200 attempts=1 ms=1460 cat=core-business-logic score=7.0
+ai-call client/app/context/NavigationContext.js status=200 attempts=1 ms=1290 cat=core-business-logic score=7.0
+ai-call server/database/db.js status=200 attempts=1 ms=2065 cat=infrastructure score=6.0
+ai-call server/middleware/admin/authMiddleware.js status=200 attempts=1 ms=2066 cat=core-business-logic score=8.0
+ai-call server/middleware/teacher/authmiddleware.js status=200 attempts=1 ms=1461 cat=core-business-logic score=8.0
+ai-call client/app/teacher/components/AuthWrapper.js status=200 attempts=1 ms=1487 cat=core-business-logic score=7.0
+ai-call server/models/admin/FeesHistory.js status=200 attempts=1 ms=1441 cat=core-business-logic score=6.0
+ai-call client/app/student/components/AuthWrapper.js status=200 attempts=1 ms=2176 cat=core-business-logic score=7.0
+ai-call server/routes/admin/FeesHistoryRoute.js status=200 attempts=1 ms=1518 cat=core-business-logic score=6.0
+ai-call server/middleware/student/authmiddleware.js status=200 attempts=1 ms=1777 cat=core-business-logic score=8.0
+ai-call client/app/components/NavigationProgressBar.js status=200 attempts=1 ms=1885 cat=core-business-logic score=5.0
+ai-call server/routes/admin/auth.js status=200 attempts=1 ms=1121 cat=core-business-logic score=8.0
+ai-call server/routes/admin/User_School_admin_route.js status=200 attempts=1 ms=1683 cat=core-business-logic score=7.0
+ai-call server/models/admin/User_School_Admin.js status=200 attempts=1 ms=2605 cat=core-business-logic score=6.0
+ai-call server/models/student/student.js status=200 attempts=1 ms=1399 cat=core-business-logic score=7.0
+ai-call client/app/student/components/Navbar.js status=200 attempts=1 ms=2091 cat=core-business-logic score=6.0
+ai-call server/models/admin/Fees.js status=200 attempts=1 ms=1252 cat=core-business-logic score=7.0
+ai-call server/models/teacher/profile.js status=200 attempts=1 ms=1587 cat=core-business-logic score=8.0
+ai-call server/routes/student/auth.js status=200 attempts=1 ms=1308 cat=core-business-logic score=8.0
+ai-call server/models/teacher/timetable.js status=200 attempts=1 ms=1113 cat=core-business-logic score=8.0
+ai-call server/routes/admin/FeesRoute.js status=200 attempts=1 ms=1641 cat=core-business-logic score=7.0
+ai-call server/routes/teacher/teacherRoute.js status=200 attempts=1 ms=3364 cat=core-business-logic score=7.0
+ai-call server/models/admin/timetable.js status=200 attempts=1 ms=4554 cat=core-business-logic score=8.0
+ai-call client/app/components/HomeNavbar.js status=200 attempts=1 ms=9440 cat=core-business-logic score=6.0
+ai-call server/models/admin/teacher.js status=200 attempts=1 ms=12176 cat=core-business-logic score=7.0
+  ai-score distribution (n=25): {5.0: 1, 6.0: 6, 7.0: 10, 8.0: 8}
+  pure-import-count order (reference): server/database/db.js(19), server/middleware/admin/authMiddleware.js(7), client/app/admin/components/AuthWrapper.js(7), client/app/context/NavigationContext.js(6), server/middleware/teacher/authmiddleware.js(5), client/app/teacher/components/AuthWrapper.js(4), client/app/student/components/AuthWrapper.js(4), server/models/admin/FeesHistory.js(2), server/middleware/student/authmiddleware.js(2), server/routes/admin/FeesHistoryRoute.js(1)
+  top-12 pre-blend (rank | indeg | norm_struct | raw_ai | norm_ai | final | path):
+    # 1 |  19 | 1.000 | 6.0 |  0.600 | 0.8000 | server/database/db.js
+    # 2 |   7 | 0.368 | 8.0 |  0.800 | 0.5842 | server/middleware/admin/authMiddleware.js
+    # 3 |   7 | 0.368 | 7.0 |  0.700 | 0.5342 | client/app/admin/components/AuthWrapper.js
+    # 4 |   5 | 0.263 | 8.0 |  0.800 | 0.5316 | server/middleware/teacher/authmiddleware.js
+    # 5 |   6 | 0.316 | 7.0 |  0.700 | 0.5079 | client/app/context/NavigationContext.js
+    # 6 |   4 | 0.211 | 7.0 |  0.700 | 0.4553 | client/app/teacher/components/AuthWrapper.js
+    # 7 |   4 | 0.211 | 7.0 |  0.700 | 0.4553 | client/app/student/components/AuthWrapper.js
+    # 8 |   2 | 0.105 | 8.0 |  0.800 | 0.4526 | server/middleware/student/authmiddleware.js
+    # 9 |   1 | 0.053 | 8.0 |  0.800 | 0.4263 | server/routes/admin/auth.js
+    #10 |   1 | 0.053 | 8.0 |  0.800 | 0.4263 | server/models/teacher/profile.js
+    #11 |   1 | 0.053 | 8.0 |  0.800 | 0.4263 | server/routes/student/auth.js
+    #12 |   1 | 0.053 | 8.0 |  0.800 | 0.4263 | server/models/teacher/timetable.js
+  ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 25505, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'normalized-0to1', 'normalized': True, 'blended': True}
+  phase ai: 25.5s
+TOTAL: 44.9s

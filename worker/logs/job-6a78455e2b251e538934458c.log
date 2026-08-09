@@ -1,0 +1,38 @@
+analyzing https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+  phase clone: 4.7s
+  phase sampling-prep: 0.3s (commits=46)
+  phase sampling: 8.0s
+  spikes: 6
+  phase spikes: 0.0s
+  file_metrics: 685, decay flags: 684
+  phase ownership: 0.2s
+  onboarding files: 72
+  phase onboarding: 0.6s
+ai-call client/app/admin/components/AuthWrapper.js status=200 attempts=1 ms=1072 cat=core-business-logic score=8.0
+ai-call server/database/db.js status=200 attempts=1 ms=1512 cat=infrastructure score=8.0
+ai-call server/middleware/admin/authMiddleware.js status=200 attempts=1 ms=1578 cat=core-business-logic score=8.0
+ai-call server/middleware/teacher/authmiddleware.js status=200 attempts=1 ms=1073 cat=core-business-logic score=8.0
+ai-call client/app/student/components/AuthWrapper.js status=200 attempts=1 ms=1136 cat=core-business-logic score=8.0
+ai-call client/app/context/NavigationContext.js status=200 attempts=1 ms=1837 cat=core-business-logic score=8.0
+ai-call client/app/teacher/components/AuthWrapper.js status=200 attempts=1 ms=1548 cat=core-business-logic score=8.0
+ai-call server/models/admin/FeesHistory.js status=200 attempts=1 ms=1734 cat=core-business-logic score=8.0
+ai-call server/middleware/student/authmiddleware.js status=200 attempts=1 ms=1066 cat=core-business-logic score=8.0
+ai-call client/app/components/NavigationProgressBar.js status=200 attempts=1 ms=1452 cat=core-business-logic score=7.0
+ai-call server/routes/admin/FeesHistoryRoute.js status=200 attempts=1 ms=1937 cat=core-business-logic score=7.0
+ai-call server/models/admin/User_School_Admin.js status=200 attempts=1 ms=1828 cat=core-business-logic score=8.0
+ai-call server/routes/admin/User_School_admin_route.js status=200 attempts=1 ms=1409 cat=core-business-logic score=8.0
+ai-call server/routes/admin/auth.js status=200 attempts=1 ms=1409 cat=core-business-logic score=9.0
+ai-call client/app/student/components/Navbar.js status=200 attempts=1 ms=1498 cat=core-business-logic score=8.0
+ai-call server/models/student/student.js status=200 attempts=1 ms=1069 cat=core-business-logic score=8.0
+ai-call server/models/admin/Fees.js status=200 attempts=1 ms=1162 cat=core-business-logic score=8.0
+ai-call server/routes/student/auth.js status=200 attempts=1 ms=1144 cat=core-business-logic score=9.0
+ai-call server/models/teacher/profile.js status=200 attempts=1 ms=1764 cat=core-business-logic score=8.0
+ai-call server/routes/admin/FeesRoute.js status=200 attempts=1 ms=1058 cat=core-business-logic score=8.0
+ai-call server/models/teacher/timetable.js status=200 attempts=1 ms=1643 cat=core-business-logic score=8.0
+ai-call server/models/admin/timetable.js status=200 attempts=1 ms=1588 cat=core-business-logic score=8.0
+ai-call server/models/admin/teacher.js status=200 attempts=1 ms=6467 cat=core-business-logic score=8.0
+ai-call server/routes/teacher/teacherRoute.js status=200 attempts=1 ms=11317 cat=core-business-logic score=8.0
+ai-call client/app/components/HomeNavbar.js status=200 attempts=1 ms=14065 cat=core-business-logic score=8.0
+  ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 26337, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blended': True}
+  phase ai: 26.4s
+TOTAL: 40.1s

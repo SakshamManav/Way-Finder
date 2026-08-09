@@ -1,0 +1,53 @@
+analyzing https://github.com/huggingface/open-r1
+  phase clone: 7.2s
+  phase sampling-prep: 0.2s (commits=199)
+  phase sampling: 4.6s
+  spikes: 5
+  phase spikes: 0.0s
+  file_metrics: 65, decay flags: 36
+  phase ownership: 0.1s
+  onboarding files: 35
+  phase onboarding: 0.5s
+ai-call src/open_r1/configs.py status=200 attempts=1 ms=1816 cat=config score=8.0
+ai-call src/open_r1/utils/__init__.py status=200 attempts=1 ms=1605 cat=reusable-utility score=5.0
+ai-call src/open_r1/rewards.py status=200 attempts=1 ms=1612 cat=core-business-logic score=7.0
+ai-call src/open_r1/utils/import_utils.py status=200 attempts=1 ms=1222 cat=reusable-utility score=2.0
+ai-call src/open_r1/utils/competitive_programming/piston_client.py status=200 attempts=1 ms=1420 cat=reusable-utility score=6.0
+ai-call src/open_r1/utils/competitive_programming/utils.py status=200 attempts=1 ms=1214 cat=reusable-utility score=3.0
+ai-call src/open_r1/utils/wandb_logging.py status=200 attempts=1 ms=1266 cat=reusable-utility score=3.0
+ai-call src/open_r1/utils/competitive_programming/ioi_utils.py status=200 attempts=1 ms=1834 cat=reusable-utility score=5.0
+ai-call src/open_r1/utils/data.py status=200 attempts=1 ms=1186 cat=reusable-utility score=5.0
+ai-call src/open_r1/utils/evaluation.py status=200 attempts=1 ms=1322 cat=reusable-utility score=5.0
+ai-call src/open_r1/utils/routed_morph.py status=200 attempts=1 ms=1260 cat=reusable-utility score=5.0
+ai-call src/open_r1/utils/callbacks.py status=200 attempts=1 ms=1177 cat=reusable-utility score=4.0
+ai-call src/open_r1/utils/routed_sandbox.py status=200 attempts=1 ms=1670 cat=reusable-utility score=5.0
+ai-call src/open_r1/utils/hub.py status=200 attempts=1 ms=1248 cat=reusable-utility score=5.0
+ai-call src/open_r1/utils/model_utils.py status=200 attempts=1 ms=1081 cat=reusable-utility score=5.0
+ai-call src/open_r1/utils/competitive_programming/code_patcher.py status=200 attempts=1 ms=2106 cat=reusable-utility score=5.0
+ai-call src/open_r1/utils/competitive_programming/cf_scoring.py status=200 attempts=1 ms=1261 cat=reusable-utility score=5.0
+ai-call src/open_r1/utils/competitive_programming/morph_client.py status=200 attempts=1 ms=1534 cat=reusable-utility score=4.0
+ai-call src/open_r1/utils/competitive_programming/ioi_scoring.py status=200 attempts=1 ms=2244 cat=core-business-logic score=6.0
+ai-call src/open_r1/__init__.py status=200 attempts=1 ms=1408 cat=config score=1.0
+ai-call scripts/benchmark_e2b.py status=200 attempts=1 ms=2313 cat=reusable-utility score=3.0
+ai-call scripts/e2b_router.py status=200 attempts=1 ms=4438 cat=core-business-logic score=7.0
+ai-call scripts/run_benchmarks.py status=200 attempts=1 ms=5219 cat=reusable-utility score=3.0
+ai-call scripts/get_tensor_parallel_size.py status=200 attempts=1 ms=9767 cat=reusable-utility score=3.0
+ai-call setup.py status=200 attempts=1 ms=14871 cat=config score=2.0
+  ai-score distribution (n=25): {1.0: 1, 2.0: 2, 3.0: 5, 4.0: 2, 5.0: 10, 6.0: 2, 7.0: 2, 8.0: 1}
+  pure-import-count order (reference): src/open_r1/configs.py(8), src/open_r1/utils/__init__.py(5), src/open_r1/rewards.py(5), src/open_r1/utils/competitive_programming/piston_client.py(3), src/open_r1/utils/import_utils.py(2), src/open_r1/utils/competitive_programming/utils.py(2), src/open_r1/utils/wandb_logging.py(2), src/open_r1/utils/competitive_programming/ioi_utils.py(2), src/open_r1/utils/data.py(2), src/open_r1/utils/evaluation.py(2)
+  top-12 pre-blend (rank | indeg | norm_struct | raw_ai | norm_ai | final | path):
+    # 1 |   8 | 1.000 | 8.0 |  0.800 | 0.9000 | src/open_r1/configs.py
+    # 2 |   5 | 0.625 | 7.0 |  0.700 | 0.6625 | src/open_r1/rewards.py
+    # 3 |   5 | 0.625 | 5.0 |  0.500 | 0.5625 | src/open_r1/utils/__init__.py
+    # 4 |   3 | 0.375 | 6.0 |  0.600 | 0.4875 | src/open_r1/utils/competitive_programming/piston_client.py
+    # 5 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/competitive_programming/ioi_utils.py
+    # 6 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/data.py
+    # 7 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/evaluation.py
+    # 8 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/routed_morph.py
+    # 9 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/routed_sandbox.py
+    #10 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/hub.py
+    #11 |   1 | 0.125 | 6.0 |  0.600 | 0.3625 | src/open_r1/utils/competitive_programming/ioi_scoring.py
+    #12 |   0 | 0.000 | 7.0 |  0.700 | 0.3500 | scripts/e2b_router.py
+  ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 25886, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'normalized-0to1', 'normalized': True, 'blended': True}
+  phase ai: 25.9s
+TOTAL: 38.5s

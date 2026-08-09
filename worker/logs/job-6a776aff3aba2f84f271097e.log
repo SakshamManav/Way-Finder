@@ -1,0 +1,11 @@
+analyzing https://github.com/axios/axios
+  phase clone: 13.9s
+  phase sampling-prep: 0.2s (commits=2166)
+  phase sampling: 4.3s
+  spikes: 3
+  phase spikes: 0.0s
+  file_metrics: 395, decay flags: 167
+  phase ownership: 0.2s
+  onboarding files: 77
+  phase onboarding: 1.0s
+TOTAL: 19.6s

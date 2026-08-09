@@ -1,0 +1,39 @@
+analyzing https://github.com/SakshamManav/School
+  phase clone: 5.3s
+  phase sampling-prep: 0.1s (commits=16)
+  phase sampling: 1.8s
+  spikes: 1
+  phase spikes: 0.0s
+  file_metrics: 117, decay flags: 0
+  phase ownership: 0.2s
+  onboarding files: 87
+  phase onboarding: 0.9s
+*** QUOTA EXHAUSTED: OpenRouter free-model daily limit reached (~50 requests/day). Remaining files this run will fall back to structural ranking. Add 10 credits for 1000 free requests/day, or set OPENROUTER_MODEL to a paid model. ***
+ai-call server/middleware/validateMiddleware.js status=429 attempts=1 ms=161 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/config/db.js status=429 attempts=1 ms=497 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/middleware/authMiddleware.js status=429 attempts=1 ms=181 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call client/lib/api.js status=429 attempts=1 ms=141 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call client/components/StatusBadge.js status=429 attempts=1 ms=148 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/queries/adminQueries.js status=429 attempts=1 ms=307 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/middleware/uploadMiddleware.js status=429 attempts=1 ms=1469 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/utils/tokenUtils.js status=429 attempts=1 ms=285 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/queries/schoolQueries.js status=429 attempts=1 ms=1262 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call client/components/id-cards/IdCard.js status=429 attempts=1 ms=146 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call client/components/Modal.js status=429 attempts=1 ms=211 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/services/storageService.js status=429 attempts=1 ms=2228 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call client/components/certificates/Certificate.js status=429 attempts=1 ms=169 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call client/components/transfer-certificates/TransferCertificate.js status=429 attempts=1 ms=174 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/controllers/feeController.js status=429 attempts=1 ms=130 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/middleware/errorHandler.js status=429 attempts=1 ms=134 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/queries/classQueries.js status=429 attempts=1 ms=147 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/queries/teacherQueries.js status=429 attempts=1 ms=162 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/validations/schoolValidation.js status=429 attempts=1 ms=155 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/config/supabase.js status=429 attempts=1 ms=146 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call client/components/id-cards/IdCardPreview.js status=429 attempts=1 ms=920 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/validations/adminValidation.js status=429 attempts=1 ms=2783 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call client/components/transfer-certificates/TransferCertificatePreview.js status=429 attempts=1 ms=6664 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call server/queries/studentQueries.js status=429 attempts=1 ms=12766 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+ai-call client/components/id-cards/IdCardPrint.js status=429 attempts=1 ms=13740 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+  ai-ranking: {'enabled': True, 'model': 'google/gemma-4-26b-a4b-it:free', 'shortlist_count': 25, 'classified_count': 0, 'fallback_count': 25, 'duration_ms': 23789, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': True, 'quota_hits': 25, 'blended': True}
+  phase ai: 23.8s
+TOTAL: 32.2s

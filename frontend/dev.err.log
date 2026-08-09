@@ -1,0 +1,3 @@
+⚠ Warning: Next.js ignored package-lock.json in C:\Users\hp because it is outside the current Git repository (C:\Users\hp\OneDrive\Desktop\New folder (2)\frontend).
+ To use this directory, set `turbopack.root` in your Next.js config.
+

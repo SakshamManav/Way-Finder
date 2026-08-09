@@ -1,0 +1,1081 @@
+[2026-08-08T22:43:54] analyzing https://github.com/koajs/koa
+[2026-08-08T22:44:00]   commits=1305 sampled=50
+[2026-08-08T22:44:02]     sample 1/50 9e167c5e files=7
+[2026-08-08T22:44:04]     sample 2/50 e5c7632b files=7
+[2026-08-08T22:44:06]     sample 3/50 99895aa2 files=7
+[2026-08-08T22:44:08]     sample 4/50 fab0150a files=7
+[2026-08-08T22:44:10]     sample 5/50 d7403552 files=7
+[2026-08-08T22:44:12]     sample 6/50 a9ae5630 files=7
+[2026-08-08T22:44:14]     sample 7/50 a1d7140b files=7
+[2026-08-08T22:44:16]     sample 8/50 f4b7f279 files=37
+[2026-08-08T22:44:18]     sample 9/50 8717a3ad files=40
+[2026-08-08T22:44:20]     sample 10/50 8a755452 files=40
+[2026-08-08T22:44:22]     sample 11/50 251922b2 files=40
+[2026-08-08T22:44:24]     sample 12/50 f19ab981 files=40
+[2026-08-08T22:44:27]     sample 13/50 08a88a92 files=40
+[2026-08-08T22:44:29]     sample 14/50 612bba8d files=40
+[2026-08-08T22:44:31]     sample 15/50 ea5757ff files=41
+[2026-08-08T22:44:33]     sample 16/50 3cb6c07d files=44
+[2026-08-08T22:44:35]     sample 17/50 3d8ab61f files=42
+[2026-08-08T22:44:37]     sample 18/50 5de9d962 files=42
+[2026-08-08T22:44:39]     sample 19/50 21b7eb82 files=42
+[2026-08-08T22:44:41]     sample 20/50 288d0c00 files=43
+[2026-08-08T22:44:43]     sample 21/50 a7b6ed05 files=51
+[2026-08-08T22:44:45]     sample 22/50 7b3e3cba files=51
+[2026-08-08T22:44:47]     sample 23/50 911e630e files=56
+[2026-08-08T22:44:49]     sample 24/50 6d09053d files=57
+[2026-08-08T22:44:51]     sample 25/50 963d46e4 files=59
+[2026-08-08T22:44:53]     sample 26/50 c307c81c files=61
+[2026-08-08T22:44:55]     sample 27/50 d3ca581a files=64
+[2026-08-08T22:44:57]     sample 28/50 237e6c4f files=65
+[2026-08-08T22:45:00]     sample 29/50 bfa53fbc files=73
+[2026-08-08T22:45:02]     sample 30/50 5d4df108 files=69
+[2026-08-08T22:45:04]     sample 31/50 a6547bcb files=71
+[2026-08-08T22:45:06]     sample 32/50 86a6f2b3 files=72
+[2026-08-08T22:45:08]     sample 33/50 e0a0d9f7 files=72
+[2026-08-08T22:45:10]     sample 34/50 152b6d73 files=72
+[2026-08-08T22:45:12]     sample 35/50 f841418b files=70
+[2026-08-08T22:45:14]     sample 36/50 0a7856ca files=70
+[2026-08-08T22:45:16]     sample 37/50 1e81ea36 files=71
+[2026-08-08T22:45:18]     sample 38/50 2ace7044 files=71
+[2026-08-08T22:45:20]     sample 39/50 49642428 files=72
+[2026-08-08T22:45:23]     sample 40/50 04e07fdc files=72
+[2026-08-08T22:45:25]     sample 41/50 2d1c5981 files=72
+[2026-08-08T22:45:27]     sample 42/50 e2030c72 files=73
+[2026-08-08T22:45:29]     sample 43/50 596cfd54 files=73
+[2026-08-08T22:45:31]     sample 44/50 706042c9 files=74
+[2026-08-08T22:45:33]     sample 45/50 e00a77d5 files=74
+[2026-08-08T22:45:35]     sample 46/50 a0148c1f files=76
+[2026-08-08T22:45:37]     sample 47/50 cfdb77f3 files=77
+[2026-08-08T22:45:39]     sample 48/50 14aef5f1 files=80
+[2026-08-08T22:45:41]     sample 49/50 f7b9a183 files=82
+[2026-08-08T22:45:44]     sample 50/50 e145325b files=82
+[2026-08-08T22:45:46]   spikes: 0
+[2026-08-08T22:47:05]   file_metrics: 259, decay flags: 94
+[2026-08-08T22:47:07]   onboarding files: 9
+[2026-08-08T22:47:09] DONE
+[2026-08-08T22:48:54] analyzing https://github.com/koajs/koa
+[2026-08-08T22:48:59]   commits=1305 sampled=50
+[2026-08-08T22:49:01]     sample 1/50 9e167c5e files=7
+[2026-08-08T22:49:03]     sample 2/50 e5c7632b files=7
+[2026-08-08T22:49:05]     sample 3/50 99895aa2 files=7
+[2026-08-08T22:49:07]     sample 4/50 fab0150a files=7
+[2026-08-08T22:49:09]     sample 5/50 d7403552 files=7
+[2026-08-08T22:49:11]     sample 6/50 a9ae5630 files=7
+[2026-08-08T22:49:13]     sample 7/50 a1d7140b files=7
+[2026-08-08T22:49:15]     sample 8/50 f4b7f279 files=37
+[2026-08-08T22:49:17]     sample 9/50 8717a3ad files=40
+[2026-08-08T22:49:20]     sample 10/50 8a755452 files=40
+[2026-08-08T22:49:22]     sample 11/50 251922b2 files=40
+[2026-08-08T22:49:24]     sample 12/50 f19ab981 files=40
+[2026-08-08T22:49:26]     sample 13/50 08a88a92 files=40
+[2026-08-08T22:49:28]     sample 14/50 612bba8d files=40
+[2026-08-08T22:49:30]     sample 15/50 ea5757ff files=41
+[2026-08-08T22:49:32]     sample 16/50 3cb6c07d files=44
+[2026-08-08T22:49:34]     sample 17/50 3d8ab61f files=42
+[2026-08-08T22:49:36]     sample 18/50 5de9d962 files=42
+[2026-08-08T22:49:38]     sample 19/50 21b7eb82 files=42
+[2026-08-08T22:49:40]     sample 20/50 288d0c00 files=43
+[2026-08-08T22:49:42]     sample 21/50 a7b6ed05 files=51
+[2026-08-08T22:49:44]     sample 22/50 7b3e3cba files=51
+[2026-08-08T22:49:46]     sample 23/50 911e630e files=56
+[2026-08-08T22:49:48]     sample 24/50 6d09053d files=57
+[2026-08-08T22:49:50]     sample 25/50 963d46e4 files=59
+[2026-08-08T22:49:53]     sample 26/50 c307c81c files=61
+[2026-08-08T22:49:55]     sample 27/50 d3ca581a files=64
+[2026-08-08T22:49:57]     sample 28/50 237e6c4f files=65
+[2026-08-08T22:49:59]     sample 29/50 bfa53fbc files=73
+[2026-08-08T22:50:01]     sample 30/50 5d4df108 files=69
+[2026-08-08T22:50:03]     sample 31/50 a6547bcb files=71
+[2026-08-08T22:50:05]     sample 32/50 86a6f2b3 files=72
+[2026-08-08T22:50:07]     sample 33/50 e0a0d9f7 files=72
+[2026-08-08T22:50:09]     sample 34/50 152b6d73 files=72
+[2026-08-08T22:50:11]     sample 35/50 f841418b files=70
+[2026-08-08T22:50:13]     sample 36/50 0a7856ca files=70
+[2026-08-08T22:50:15]     sample 37/50 1e81ea36 files=71
+[2026-08-08T22:50:18]     sample 38/50 2ace7044 files=71
+[2026-08-08T22:50:20]     sample 39/50 49642428 files=72
+[2026-08-08T22:50:22]     sample 40/50 04e07fdc files=72
+[2026-08-08T22:50:24]     sample 41/50 2d1c5981 files=72
+[2026-08-08T22:50:26]     sample 42/50 e2030c72 files=73
+[2026-08-08T22:50:28]     sample 43/50 596cfd54 files=73
+[2026-08-08T22:50:30]     sample 44/50 706042c9 files=74
+[2026-08-08T22:50:32]     sample 45/50 e00a77d5 files=74
+[2026-08-08T22:50:34]     sample 46/50 a0148c1f files=76
+[2026-08-08T22:50:37]     sample 47/50 cfdb77f3 files=77
+[2026-08-08T22:50:39]     sample 48/50 14aef5f1 files=80
+[2026-08-08T22:50:41]     sample 49/50 f7b9a183 files=82
+[2026-08-08T22:50:43]     sample 50/50 e145325b files=82
+[2026-08-08T22:50:45]   spikes: 1
+[2026-08-08T22:52:25]   file_metrics: 259, decay flags: 32
+[2026-08-08T22:52:27]   onboarding files: 9
+[2026-08-08T22:52:29] DONE
+[2026-08-08T22:54:02] analyzing https://github.com/koajs/koa
+[2026-08-08T22:54:08]   commits=1305 sampled=50
+[2026-08-08T22:54:10]     sample 1/50 9e167c5e files=7
+[2026-08-08T22:54:12]     sample 2/50 e5c7632b files=7
+[2026-08-08T22:54:14]     sample 3/50 99895aa2 files=7
+[2026-08-08T22:54:16]     sample 4/50 fab0150a files=7
+[2026-08-08T22:54:18]     sample 5/50 d7403552 files=7
+[2026-08-08T22:54:20]     sample 6/50 a9ae5630 files=7
+[2026-08-08T22:54:22]     sample 7/50 a1d7140b files=7
+[2026-08-08T22:54:24]     sample 8/50 f4b7f279 files=37
+[2026-08-08T22:54:26]     sample 9/50 8717a3ad files=40
+[2026-08-08T22:54:28]     sample 10/50 8a755452 files=40
+[2026-08-08T22:54:30]     sample 11/50 251922b2 files=40
+[2026-08-08T22:54:33]     sample 12/50 f19ab981 files=40
+[2026-08-08T22:54:35]     sample 13/50 08a88a92 files=40
+[2026-08-08T22:54:37]     sample 14/50 612bba8d files=40
+[2026-08-08T22:54:39]     sample 15/50 ea5757ff files=41
+[2026-08-08T22:54:41]     sample 16/50 3cb6c07d files=44
+[2026-08-08T22:54:43]     sample 17/50 3d8ab61f files=42
+[2026-08-08T22:54:45]     sample 18/50 5de9d962 files=42
+[2026-08-08T22:54:47]     sample 19/50 21b7eb82 files=42
+[2026-08-08T22:54:49]     sample 20/50 288d0c00 files=43
+[2026-08-08T22:54:51]     sample 21/50 a7b6ed05 files=51
+[2026-08-08T22:54:53]     sample 22/50 7b3e3cba files=51
+[2026-08-08T22:54:55]     sample 23/50 911e630e files=56
+[2026-08-08T22:54:57]     sample 24/50 6d09053d files=57
+[2026-08-08T22:54:59]     sample 25/50 963d46e4 files=59
+[2026-08-08T22:55:01]     sample 26/50 c307c81c files=61
+[2026-08-08T22:55:04]     sample 27/50 d3ca581a files=64
+[2026-08-08T22:55:06]     sample 28/50 237e6c4f files=65
+[2026-08-08T22:55:08]     sample 29/50 bfa53fbc files=73
+[2026-08-08T22:55:10]     sample 30/50 5d4df108 files=69
+[2026-08-08T22:55:12]     sample 31/50 a6547bcb files=71
+[2026-08-08T22:55:14]     sample 32/50 86a6f2b3 files=72
+[2026-08-08T22:55:16]     sample 33/50 e0a0d9f7 files=72
+[2026-08-08T22:55:18]     sample 34/50 152b6d73 files=72
+[2026-08-08T22:55:20]     sample 35/50 f841418b files=70
+[2026-08-08T22:55:22]     sample 36/50 0a7856ca files=70
+[2026-08-08T22:55:24]     sample 37/50 1e81ea36 files=71
+[2026-08-08T22:55:26]     sample 38/50 2ace7044 files=71
+[2026-08-08T22:55:29]     sample 39/50 49642428 files=72
+[2026-08-08T22:55:31]     sample 40/50 04e07fdc files=72
+[2026-08-08T22:55:33]     sample 41/50 2d1c5981 files=72
+[2026-08-08T22:55:35]     sample 42/50 e2030c72 files=73
+[2026-08-08T22:55:37]     sample 43/50 596cfd54 files=73
+[2026-08-08T22:55:39]     sample 44/50 706042c9 files=74
+[2026-08-08T22:55:41]     sample 45/50 e00a77d5 files=74
+[2026-08-08T22:55:43]     sample 46/50 a0148c1f files=76
+[2026-08-08T22:55:45]     sample 47/50 cfdb77f3 files=77
+[2026-08-08T22:55:47]     sample 48/50 14aef5f1 files=80
+[2026-08-08T22:55:50]     sample 49/50 f7b9a183 files=82
+[2026-08-08T22:55:52]     sample 50/50 e145325b files=82
+[2026-08-08T22:55:54]   spikes: 1
+[2026-08-08T22:55:56]   file_metrics: 259, decay flags: 32
+[2026-08-08T22:55:58]   onboarding files: 9
+[2026-08-08T22:56:00] DONE
+[2026-08-08T22:56:33] analyzing https://github.com/koajs/koa
+[2026-08-08T22:56:39]   phase clone: 5.3s
+[2026-08-08T22:56:39]   phase sampling-prep: 0.3s (commits=1305)
+[2026-08-08T22:58:22]   phase sampling: 102.6s
+[2026-08-08T22:58:24]   spikes: 1
+[2026-08-08T22:58:24]   phase spikes: 2.0s
+[2026-08-08T22:58:26]   file_metrics: 259, decay flags: 32
+[2026-08-08T22:58:26]   phase ownership: 2.2s
+[2026-08-08T22:58:28]   onboarding files: 7
+[2026-08-08T22:58:28]   phase onboarding: 2.2s
+[2026-08-08T22:58:30] TOTAL: 116.6s
+[2026-08-08T22:58:52] analyzing https://github.com/koajs/koa
+[2026-08-08T22:58:57]   phase clone: 5.4s
+[2026-08-08T22:58:57]   phase sampling-prep: 0.1s (commits=1305)
+[2026-08-08T22:58:59]     sample 1: analyze=0.1s insert=0.0s
+[2026-08-08T22:59:10]     sample 6: analyze=0.0s insert=0.0s
+[2026-08-08T22:59:20]     sample 11: analyze=0.0s insert=0.0s
+[2026-08-08T22:59:30]     sample 16: analyze=0.0s insert=0.0s
+[2026-08-08T22:59:40]     sample 21: analyze=0.0s insert=0.0s
+[2026-08-08T22:59:50]     sample 26: analyze=0.0s insert=0.0s
+[2026-08-08T23:00:00]     sample 31: analyze=0.0s insert=0.0s
+[2026-08-08T23:00:11]     sample 36: analyze=0.1s insert=0.0s
+[2026-08-08T23:00:21]     sample 41: analyze=0.0s insert=0.0s
+[2026-08-08T23:00:31]     sample 46: analyze=0.1s insert=0.0s
+[2026-08-08T23:00:40]   phase sampling: 102.4s
+[2026-08-08T23:00:42]   spikes: 1
+[2026-08-08T23:00:42]   phase spikes: 2.0s
+[2026-08-08T23:00:44]   file_metrics: 259, decay flags: 32
+[2026-08-08T23:00:44]   phase ownership: 2.2s
+[2026-08-08T23:00:46]   onboarding files: 7
+[2026-08-08T23:00:46]   phase onboarding: 2.3s
+[2026-08-08T23:00:48] TOTAL: 116.5s
+[2026-08-08T23:01:13] analyzing https://github.com/koajs/koa
+[2026-08-08T23:01:18]   phase clone: 5.0s
+[2026-08-08T23:01:19]   phase sampling-prep: 0.2s (commits=1305)
+[2026-08-08T23:01:21]   phase sampling: 2.9s
+[2026-08-08T23:01:21]   spikes: 1
+[2026-08-08T23:01:21]   phase spikes: 0.0s
+[2026-08-08T23:01:22]   file_metrics: 259, decay flags: 32
+[2026-08-08T23:01:22]   phase ownership: 0.2s
+[2026-08-08T23:01:22]   onboarding files: 7
+[2026-08-08T23:01:22]   phase onboarding: 0.2s
+[2026-08-08T23:01:22] TOTAL: 8.6s
+[2026-08-08T23:01:30] analyzing https://github.com/expressjs/express
+[2026-08-08T23:01:50]   phase clone: 20.8s
+[2026-08-08T23:01:51]   phase sampling-prep: 0.3s (commits=6158)
+[2026-08-08T23:01:56]   phase sampling: 5.1s
+[2026-08-08T23:01:56]   spikes: 10
+[2026-08-08T23:01:56]   phase spikes: 0.0s
+[2026-08-08T23:01:56]   file_metrics: 398, decay flags: 242
+[2026-08-08T23:01:56]   phase ownership: 0.6s
+[2026-08-08T23:01:57]   onboarding files: 7
+[2026-08-08T23:01:57]   phase onboarding: 0.3s
+[2026-08-08T23:01:57] TOTAL: 27.3s
+[2026-08-08T23:03:08] analyzing https://github.com/expressjs/express
+[2026-08-08T23:03:17]   phase clone: 9.2s
+[2026-08-08T23:03:17]   phase sampling-prep: 0.2s (commits=6158)
+[2026-08-08T23:03:21]   phase sampling: 3.9s
+[2026-08-08T23:03:21]   spikes: 8
+[2026-08-08T23:03:21]   phase spikes: 0.0s
+[2026-08-08T23:03:21]   file_metrics: 398, decay flags: 242
+[2026-08-08T23:03:22]   phase ownership: 0.5s
+[2026-08-08T23:03:22]   onboarding files: 7
+[2026-08-08T23:03:22]   phase onboarding: 0.3s
+[2026-08-08T23:03:22] TOTAL: 14.2s
+[2026-08-08T23:03:29] analyzing https://github.com/psf/requests
+[2026-08-08T23:03:53]   phase clone: 24.5s
+[2026-08-08T23:03:53]   phase sampling-prep: 0.3s (commits=6489)
+[2026-08-08T23:04:36]   phase sampling: 43.0s
+[2026-08-08T23:04:36]   spikes: 9
+[2026-08-08T23:04:36]   phase spikes: 0.0s
+[2026-08-08T23:04:37]   file_metrics: 290, decay flags: 155
+[2026-08-08T23:04:37]   phase ownership: 0.5s
+[2026-08-08T23:04:37]   onboarding files: 20
+[2026-08-08T23:04:37]   phase onboarding: 0.1s
+[2026-08-08T23:04:37] TOTAL: 68.5s
+[2026-08-08T23:06:56] analyzing https://github.com/psf/requests
+[2026-08-08T23:07:05]   phase clone: 9.1s
+[2026-08-08T23:07:05]   phase sampling-prep: 0.3s (commits=6489)
+[2026-08-08T23:07:47]   phase sampling: 42.0s
+[2026-08-08T23:07:47]   spikes: 7
+[2026-08-08T23:07:47]   phase spikes: 0.0s
+[2026-08-08T23:07:47]   file_metrics: 290, decay flags: 155
+[2026-08-08T23:07:48]   phase ownership: 0.5s
+[2026-08-08T23:07:48]   onboarding files: 20
+[2026-08-08T23:07:48]   phase onboarding: 0.2s
+[2026-08-08T23:07:48] TOTAL: 52.1s
+[2026-08-08T23:14:32] analyzing https://github.com/axios/axios
+[2026-08-08T23:14:45]   phase clone: 13.9s
+[2026-08-08T23:14:46]   phase sampling-prep: 0.2s (commits=2166)
+[2026-08-08T23:14:50]   phase sampling: 4.3s
+[2026-08-08T23:14:50]   spikes: 3
+[2026-08-08T23:14:50]   phase spikes: 0.0s
+[2026-08-08T23:14:50]   file_metrics: 395, decay flags: 167
+[2026-08-08T23:14:50]   phase ownership: 0.2s
+[2026-08-08T23:14:51]   onboarding files: 77
+[2026-08-08T23:14:51]   phase onboarding: 1.0s
+[2026-08-08T23:14:51] TOTAL: 19.6s
+[2026-08-08T23:15:35] analyzing https://github.com/axios/axios
+[2026-08-08T23:15:52]   phase clone: 16.9s
+[2026-08-08T23:15:52]   phase sampling-prep: 0.2s (commits=2166)
+[2026-08-08T23:15:56]   phase sampling: 4.7s
+[2026-08-08T23:15:56]   spikes: 4
+[2026-08-08T23:15:56]   phase spikes: 0.0s
+[2026-08-08T23:15:57]   file_metrics: 395, decay flags: 167
+[2026-08-08T23:15:57]   phase ownership: 0.3s
+[2026-08-08T23:15:58]   onboarding files: 77
+[2026-08-08T23:15:58]   phase onboarding: 0.9s
+[2026-08-08T23:15:58] TOTAL: 23.0s
+[2026-08-08T23:38:43] analyzing https://github.com/aza-ali/awesome-ai-product-management
+[2026-08-08T23:38:45]   phase clone: 1.7s
+[2026-08-08T23:38:45]   phase sampling-prep: 0.1s (commits=8)
+[2026-08-08T23:38:45]   phase sampling: 0.1s
+[2026-08-08T23:38:45]   spikes: 0
+[2026-08-08T23:38:45]   phase spikes: 0.0s
+[2026-08-08T23:38:45]   file_metrics: 0, decay flags: 0
+[2026-08-08T23:38:45]   phase ownership: 0.1s
+[2026-08-08T23:38:45]   onboarding files: 0
+[2026-08-08T23:38:45]   phase onboarding: 0.0s
+[2026-08-08T23:38:45] TOTAL: 2.0s
+[2026-08-08T23:41:33] analyzing https://github.com/deepseek-ai/DeepEP
+[2026-08-08T23:41:40]   phase clone: 7.5s
+[2026-08-08T23:41:40]   phase sampling-prep: 0.1s (commits=253)
+[2026-08-08T23:41:44]   phase sampling: 3.2s
+[2026-08-08T23:41:44]   spikes: 1
+[2026-08-08T23:41:44]   phase spikes: 0.0s
+[2026-08-08T23:41:44]   file_metrics: 30, decay flags: 16
+[2026-08-08T23:41:44]   phase ownership: 0.1s
+[2026-08-08T23:41:44]   onboarding files: 15
+[2026-08-08T23:41:44]   phase onboarding: 0.1s
+[2026-08-08T23:41:44] TOTAL: 11.0s
+[2026-08-08T23:43:05] analyzing https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-08T23:43:08]   phase clone: 3.4s
+[2026-08-08T23:43:08]   phase sampling-prep: 0.1s (commits=46)
+[2026-08-08T23:43:14]   phase sampling: 5.8s
+[2026-08-08T23:43:14]   spikes: 6
+[2026-08-08T23:43:14]   phase spikes: 0.0s
+[2026-08-08T23:43:14]   file_metrics: 685, decay flags: 684
+[2026-08-08T23:43:14]   phase ownership: 0.1s
+[2026-08-08T23:43:14]   onboarding files: 72
+[2026-08-08T23:43:14]   phase onboarding: 0.3s
+[2026-08-08T23:43:14] TOTAL: 9.8s
+[2026-08-09T00:38:22] analyzing https://github.com/SakshamManav/AI-interview
+[2026-08-09T00:38:26]   phase clone: 4.3s
+[2026-08-09T00:38:26]   phase sampling-prep: 0.1s (commits=21)
+[2026-08-09T00:38:28]   phase sampling: 1.4s
+[2026-08-09T00:38:28]   spikes: 0
+[2026-08-09T00:38:28]   phase spikes: 0.0s
+[2026-08-09T00:38:28]   file_metrics: 123, decay flags: 15
+[2026-08-09T00:38:28]   phase ownership: 0.1s
+[2026-08-09T00:38:28]   onboarding files: 79
+[2026-08-09T00:38:28]   phase onboarding: 0.4s
+[2026-08-09T00:38:28] TOTAL: 6.3s
+[2026-08-09T12:22:36]   ai-ranking: {'enabled': True, 'model': 'anthropic/claude-3.5-haiku', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 1190, 'blended': True}
+[2026-08-09T12:24:50]   ai-ranking: {'enabled': True, 'model': 'anthropic/claude-3.5-haiku', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 372, 'blended': True}
+[2026-08-09T12:30:17]   ai-ranking: {'enabled': True, 'model': 'anthropic/claude-3.5-haiku', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 560, 'blended': True}
+[2026-08-09T12:32:38] analyzing https://github.com/sindresorhus/is
+[2026-08-09T12:32:41]   phase clone: 3.3s
+[2026-08-09T12:32:42]   phase sampling-prep: 0.2s (commits=256)
+[2026-08-09T12:32:43]   phase sampling: 0.9s
+[2026-08-09T12:32:43]   spikes: 4
+[2026-08-09T12:32:43]   phase spikes: 0.0s
+[2026-08-09T12:32:43]   file_metrics: 8, decay flags: 0
+[2026-08-09T12:32:43]   phase ownership: 0.2s
+[2026-08-09T12:32:43]   onboarding files: 3
+[2026-08-09T12:32:43]   phase onboarding: 0.0s
+[2026-08-09T12:32:43]   phase ai: 0.0s
+[2026-08-09T12:32:43] TOTAL: 4.7s
+[2026-08-09T12:32:50] analyzing https://github.com/koajs/koa
+[2026-08-09T12:32:53]   phase clone: 3.2s
+[2026-08-09T12:32:53]   phase sampling-prep: 0.2s (commits=1305)
+[2026-08-09T12:32:56]   phase sampling: 2.4s
+[2026-08-09T12:32:56]   spikes: 1
+[2026-08-09T12:32:56]   phase spikes: 0.0s
+[2026-08-09T12:32:56]   file_metrics: 259, decay flags: 32
+[2026-08-09T12:32:56]   phase ownership: 0.2s
+[2026-08-09T12:32:57]   onboarding files: 7
+[2026-08-09T12:32:57]   phase onboarding: 0.8s
+[2026-08-09T12:32:57]   ai-ranking: {'enabled': True, 'model': 'anthropic/claude-3.5-haiku', 'shortlist_count': 7, 'classified_count': 7, 'fallback_count': 0, 'duration_ms': 526, 'blended': True}
+[2026-08-09T12:32:57]   phase ai: 0.5s
+[2026-08-09T12:32:57] TOTAL: 7.3s
+[2026-08-09T12:34:57]   ai-ranking: {'enabled': True, 'model': 'anthropic/claude-3.5-haiku', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 538, 'blended': True}
+[2026-08-09T12:44:02]   ai-ranking: {'enabled': True, 'model': 'google/gemma-4-26b-a4b-it:free', 'shortlist_count': 25, 'classified_count': 23, 'fallback_count': 2, 'duration_ms': 23500, 'blended': True}
+
+===== FRESH AI BATCH START 2026-08-09T12:54:27 =====
+[2026-08-09T12:54:37] analyzing https://github.com/axios/axios
+[2026-08-09T12:54:51]   phase clone: 13.8s
+[2026-08-09T12:54:51]   phase sampling-prep: 0.4s (commits=2166)
+[2026-08-09T12:54:58]   phase sampling: 6.6s
+[2026-08-09T12:54:58]   spikes: 4
+[2026-08-09T12:54:58]   phase spikes: 0.0s
+[2026-08-09T12:54:58]   file_metrics: 395, decay flags: 167
+[2026-08-09T12:54:58]   phase ownership: 0.4s
+[2026-08-09T12:55:00]   onboarding files: 77
+[2026-08-09T12:55:00]   phase onboarding: 2.4s
+[2026-08-09T12:55:04] ai-call lib/core/AxiosHeaders.js status=200 attempts=1 ms=2316 cat=reusable-utility score=6.0
+[2026-08-09T12:55:04] ai-call lib/core/AxiosError.js status=200 attempts=1 ms=3071 cat=core-business-logic score=7.0
+[2026-08-09T12:55:05] ai-call lib/utils.js status=200 attempts=1 ms=4629 cat=reusable-utility score=4.0
+[2026-08-09T12:55:07] ai-call lib/platform/index.js status=200 attempts=1 ms=5555 cat=infrastructure score=8.0
+[2026-08-09T12:55:07] ai-call lib/defaults/index.js status=200 attempts=1 ms=5227 cat=core-business-logic score=8.0
+[2026-08-09T12:55:08] ai-call index.js status=200 attempts=1 ms=7188 cat=infrastructure score=8.0
+[2026-08-09T12:55:09] ai-call lib/core/settle.js status=200 attempts=1 ms=3576 cat=reusable-utility score=4.0
+[2026-08-09T12:55:10] ai-call lib/helpers/toFormData.js status=200 attempts=1 ms=7690 cat=reusable-utility score=4.0
+[2026-08-09T12:55:14] ai-call lib/helpers/progressEventReducer.js status=200 attempts=1 ms=2855 cat=reusable-utility score=3.0
+[2026-08-09T12:55:14] ai-call lib/defaults/transitional.js status=200 attempts=1 ms=4651 cat=config score=3.0
+[2026-08-09T12:55:15] ai-call lib/helpers/AxiosURLSearchParams.js status=200 attempts=1 ms=2577 cat=reusable-utility score=3.0
+[2026-08-09T12:55:20] ai-call lib/core/buildFullPath.js status=200 attempts=1 ms=2577 cat=core-business-logic score=7.0
+[2026-08-09T12:55:21] ai-call lib/cancel/isCancel.js status=200 attempts=1 ms=3469 cat=reusable-utility score=2.0
+[2026-08-09T12:55:21] ai-call lib/helpers/resolveConfig.js status=200 attempts=1 ms=13950 cat=core-business-logic score=9.0
+[2026-08-09T12:55:22] ai-call lib/core/mergeConfig.js status=200 attempts=1 ms=12749 cat=core-business-logic score=7.0
+[2026-08-09T12:55:23] ai-call lib/helpers/parseProtocol.js status=200 attempts=1 ms=4038 cat=reusable-utility score=2.0
+[2026-08-09T12:55:23] ai-call lib/helpers/buildURL.js status=429 attempts=3 ms=10482 FALLBACK (body='{"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your o')
+[2026-08-09T12:55:23] ai-call lib/helpers/sanitizeHeaderValue.js status=429 attempts=3 ms=10105 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-min. ","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"20","X-RateLimit-Remaining":"0","X-RateLimit-Reset":"1786260')
+[2026-08-09T12:55:25] ai-call lib/cancel/CanceledError.js status=200 attempts=1 ms=23352 cat=core-business-logic score=4.0
+[2026-08-09T12:55:29] ai-call lib/helpers/bind.js status=200 attempts=1 ms=4990 cat=reusable-utility score=2.0
+[2026-08-09T12:55:30] ai-call lib/helpers/formDataToJSON.js status=200 attempts=1 ms=2367 cat=reusable-utility score=4.0
+[2026-08-09T12:55:48] ai-call lib/helpers/composeSignals.js status=429 attempts=3 ms=22200 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T12:55:52] ai-call lib/core/transformData.js status=429 attempts=3 ms=26233 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T12:56:12] ai-call lib/helpers/cookies.js status=200 attempts=1 ms=45534 cat=reusable-utility score=3.0
+[2026-08-09T12:56:12]   ai-ranking: {'enabled': True, 'model': 'google/gemma-4-26b-a4b-it:free', 'shortlist_count': 25, 'classified_count': 21, 'fallback_count': 4, 'duration_ms': 71803, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'blended': True}
+[2026-08-09T12:56:12]   phase ai: 71.8s
+[2026-08-09T12:56:12] TOTAL: 95.5s
+[2026-08-09T13:41:59] ===== QUOTA PROBE START =====
+[2026-08-09T13:41:59] *** QUOTA EXHAUSTED: OpenRouter free-model daily limit reached (~50 requests/day). Remaining files this run will fall back to structural ranking. Add 10 credits for 1000 free requests/day, or set OPENROUTER_MODEL to a paid model. ***
+[2026-08-09T13:41:59] ai-call probe/file.js status=429 attempts=1 ms=522 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:44:53] analyzing https://github.com/SakshamManav/School
+[2026-08-09T13:44:57]   phase clone: 3.2s
+[2026-08-09T13:44:57]   phase sampling-prep: 0.1s (commits=16)
+[2026-08-09T13:44:59]   phase sampling: 1.9s
+[2026-08-09T13:44:59]   spikes: 1
+[2026-08-09T13:44:59]   phase spikes: 0.0s
+[2026-08-09T13:44:59]   file_metrics: 117, decay flags: 0
+[2026-08-09T13:44:59]   phase ownership: 0.1s
+[2026-08-09T13:44:59]   onboarding files: 87
+[2026-08-09T13:44:59]   phase onboarding: 0.6s
+[2026-08-09T13:45:01] *** QUOTA EXHAUSTED: OpenRouter free-model daily limit reached (~50 requests/day). Remaining files this run will fall back to structural ranking. Add 10 credits for 1000 free requests/day, or set OPENROUTER_MODEL to a paid model. ***
+[2026-08-09T13:45:01] ai-call server/middleware/validateMiddleware.js status=429 attempts=1 ms=458 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:01] ai-call server/config/db.js status=429 attempts=1 ms=672 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:01] ai-call client/lib/api.js status=429 attempts=1 ms=148 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:01] ai-call server/middleware/authMiddleware.js status=429 attempts=1 ms=451 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:01] ai-call client/components/StatusBadge.js status=429 attempts=1 ms=139 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:01] ai-call server/middleware/uploadMiddleware.js status=429 attempts=1 ms=128 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:02] ai-call server/services/storageService.js status=429 attempts=1 ms=158 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:02] ai-call server/queries/schoolQueries.js status=429 attempts=1 ms=163 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:03] ai-call server/queries/adminQueries.js status=429 attempts=1 ms=147 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:03] ai-call server/utils/tokenUtils.js status=429 attempts=1 ms=143 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:03] ai-call client/components/id-cards/IdCard.js status=429 attempts=1 ms=160 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:04] ai-call client/components/Modal.js status=429 attempts=1 ms=155 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:04] ai-call client/components/certificates/Certificate.js status=429 attempts=1 ms=130 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:04] ai-call client/components/transfer-certificates/TransferCertificate.js status=429 attempts=1 ms=178 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:05] ai-call server/controllers/feeController.js status=429 attempts=1 ms=149 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:05] ai-call server/middleware/errorHandler.js status=429 attempts=1 ms=170 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:06] ai-call server/queries/classQueries.js status=429 attempts=1 ms=171 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:07] ai-call server/queries/teacherQueries.js status=429 attempts=1 ms=183 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:07] ai-call server/validations/schoolValidation.js status=429 attempts=1 ms=166 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:08] ai-call server/config/supabase.js status=429 attempts=1 ms=246 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:11] ai-call client/components/id-cards/IdCardPrint.js status=429 attempts=1 ms=1917 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:14] ai-call server/validations/adminValidation.js status=429 attempts=1 ms=3240 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:18] ai-call server/queries/studentQueries.js status=429 attempts=1 ms=10263 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:22] ai-call client/components/id-cards/IdCardPreview.js status=429 attempts=1 ms=13393 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:24] ai-call client/components/transfer-certificates/TransferCertificatePreview.js status=429 attempts=1 ms=14780 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T13:45:24]   ai-ranking: {'enabled': True, 'model': 'google/gemma-4-26b-a4b-it:free', 'shortlist_count': 25, 'classified_count': 0, 'fallback_count': 25, 'duration_ms': 25121, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': True, 'quota_hits': 25, 'blended': True}
+[2026-08-09T13:45:24]   phase ai: 25.1s
+[2026-08-09T13:45:25] TOTAL: 31.2s
+[2026-08-09T14:27:40] analyzing https://github.com/SakshamManav/School
+[2026-08-09T14:27:44]   phase clone: 3.8s
+[2026-08-09T14:27:44]   phase sampling-prep: 0.1s (commits=16)
+[2026-08-09T14:27:46]   phase sampling: 1.6s
+[2026-08-09T14:27:46]   spikes: 1
+[2026-08-09T14:27:46]   phase spikes: 0.0s
+[2026-08-09T14:27:46]   file_metrics: 117, decay flags: 0
+[2026-08-09T14:27:46]   phase ownership: 0.1s
+[2026-08-09T14:27:46]   onboarding files: 87
+[2026-08-09T14:27:46]   phase onboarding: 0.5s
+[2026-08-09T14:27:47] *** QUOTA EXHAUSTED: OpenRouter free-model daily limit reached (~50 requests/day). Remaining files this run will fall back to structural ranking. Add 10 credits for 1000 free requests/day, or set OPENROUTER_MODEL to a paid model. ***
+[2026-08-09T14:27:47] ai-call server/config/db.js status=429 attempts=1 ms=519 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:48] ai-call server/middleware/authMiddleware.js status=429 attempts=1 ms=293 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+')
+[2026-08-09T14:27:48] ai-call client/lib/api.js status=429 attempts=1 ms=183 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:48] ai-call client/components/StatusBadge.js status=429 attempts=1 ms=166 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:48] ai-call server/middleware/uploadMiddleware.js status=429 attempts=1 ms=138 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:48] ai-call server/services/storageService.js status=429 attempts=1 ms=149 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:48] ai-call server/queries/schoolQueries.js status=429 attempts=1 ms=140 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:49] ai-call server/queries/adminQueries.js status=429 attempts=1 ms=138 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:49] ai-call server/utils/tokenUtils.js status=429 attempts=1 ms=141 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:50] ai-call client/components/id-cards/IdCard.js status=429 attempts=1 ms=156 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:50] ai-call client/components/Modal.js status=429 attempts=1 ms=309 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:50] ai-call client/components/certificates/Certificate.js status=429 attempts=1 ms=150 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:51] ai-call client/components/transfer-certificates/TransferCertificate.js status=429 attempts=1 ms=136 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:51] ai-call server/controllers/feeController.js status=429 attempts=1 ms=152 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:52] ai-call server/middleware/errorHandler.js status=429 attempts=1 ms=290 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:52] ai-call server/queries/classQueries.js status=429 attempts=1 ms=146 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:53] ai-call server/queries/teacherQueries.js status=429 attempts=1 ms=134 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:53] ai-call server/validations/schoolValidation.js status=429 attempts=1 ms=136 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:54] ai-call server/config/supabase.js status=429 attempts=1 ms=227 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:27:57] ai-call client/components/id-cards/IdCardPrint.js status=429 attempts=1 ms=1422 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:28:01] ai-call server/queries/studentQueries.js status=429 attempts=1 ms=7025 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:28:04] ai-call client/components/id-cards/IdCardPreview.js status=429 attempts=1 ms=8827 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:28:07] ai-call server/validations/adminValidation.js status=429 attempts=1 ms=10075 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:28:11] ai-call client/components/transfer-certificates/TransferCertificatePreview.js status=429 attempts=1 ms=14234 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:28:11]   ai-ranking: {'enabled': True, 'model': 'google/gemma-4-26b-a4b-it:free', 'shortlist_count': 25, 'classified_count': 0, 'fallback_count': 25, 'duration_ms': 24006, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': True, 'quota_hits': 25, 'blended': True}
+[2026-08-09T14:28:11]   phase ai: 24.0s
+[2026-08-09T14:28:11] TOTAL: 30.2s
+[2026-08-09T14:28:53] analyzing https://github.com/SakshamManav/School
+[2026-08-09T14:28:58]   phase clone: 5.3s
+[2026-08-09T14:28:58]   phase sampling-prep: 0.1s (commits=16)
+[2026-08-09T14:29:00]   phase sampling: 1.8s
+[2026-08-09T14:29:00]   spikes: 1
+[2026-08-09T14:29:00]   phase spikes: 0.0s
+[2026-08-09T14:29:00]   file_metrics: 117, decay flags: 0
+[2026-08-09T14:29:00]   phase ownership: 0.2s
+[2026-08-09T14:29:01]   onboarding files: 87
+[2026-08-09T14:29:01]   phase onboarding: 0.9s
+[2026-08-09T14:29:02] *** QUOTA EXHAUSTED: OpenRouter free-model daily limit reached (~50 requests/day). Remaining files this run will fall back to structural ranking. Add 10 credits for 1000 free requests/day, or set OPENROUTER_MODEL to a paid model. ***
+[2026-08-09T14:29:02] ai-call server/middleware/validateMiddleware.js status=429 attempts=1 ms=161 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:02] ai-call server/config/db.js status=429 attempts=1 ms=497 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:02] ai-call server/middleware/authMiddleware.js status=429 attempts=1 ms=181 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:02] ai-call client/lib/api.js status=429 attempts=1 ms=141 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:02] ai-call client/components/StatusBadge.js status=429 attempts=1 ms=148 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:04] ai-call server/queries/adminQueries.js status=429 attempts=1 ms=307 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:04] ai-call server/middleware/uploadMiddleware.js status=429 attempts=1 ms=1469 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:04] ai-call server/utils/tokenUtils.js status=429 attempts=1 ms=285 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:04] ai-call server/queries/schoolQueries.js status=429 attempts=1 ms=1262 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:04] ai-call client/components/id-cards/IdCard.js status=429 attempts=1 ms=146 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:04] ai-call client/components/Modal.js status=429 attempts=1 ms=211 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:05] ai-call server/services/storageService.js status=429 attempts=1 ms=2228 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:05] ai-call client/components/certificates/Certificate.js status=429 attempts=1 ms=169 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:06] ai-call client/components/transfer-certificates/TransferCertificate.js status=429 attempts=1 ms=174 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:07] ai-call server/controllers/feeController.js status=429 attempts=1 ms=130 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:07] ai-call server/middleware/errorHandler.js status=429 attempts=1 ms=134 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:07] ai-call server/queries/classQueries.js status=429 attempts=1 ms=147 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:08] ai-call server/queries/teacherQueries.js status=429 attempts=1 ms=162 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:08] ai-call server/validations/schoolValidation.js status=429 attempts=1 ms=155 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:09] ai-call server/config/supabase.js status=429 attempts=1 ms=146 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:12] ai-call client/components/id-cards/IdCardPreview.js status=429 attempts=1 ms=920 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:15] ai-call server/validations/adminValidation.js status=429 attempts=1 ms=2783 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:18] ai-call client/components/transfer-certificates/TransferCertificatePreview.js status=429 attempts=1 ms=6664 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:22] ai-call server/queries/studentQueries.js status=429 attempts=1 ms=12766 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:25] ai-call client/components/id-cards/IdCardPrint.js status=429 attempts=1 ms=13740 FALLBACK (body='{"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metadata":{"headers":{"X-RateLimit-Limit":"50"')
+[2026-08-09T14:29:25]   ai-ranking: {'enabled': True, 'model': 'google/gemma-4-26b-a4b-it:free', 'shortlist_count': 25, 'classified_count': 0, 'fallback_count': 25, 'duration_ms': 23789, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': True, 'quota_hits': 25, 'blended': True}
+[2026-08-09T14:29:25]   phase ai: 23.8s
+[2026-08-09T14:29:25] TOTAL: 32.2s
+[2026-08-09T14:46:16] analyzing https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T14:46:20]   phase clone: 4.7s
+[2026-08-09T14:46:21]   phase sampling-prep: 0.3s (commits=46)
+[2026-08-09T14:46:29]   phase sampling: 8.0s
+[2026-08-09T14:46:29]   spikes: 6
+[2026-08-09T14:46:29]   phase spikes: 0.0s
+[2026-08-09T14:46:29]   file_metrics: 685, decay flags: 684
+[2026-08-09T14:46:29]   phase ownership: 0.2s
+[2026-08-09T14:46:30]   onboarding files: 72
+[2026-08-09T14:46:30]   phase onboarding: 0.6s
+[2026-08-09T14:46:32] ai-call client/app/admin/components/AuthWrapper.js status=200 attempts=1 ms=1072 cat=core-business-logic score=8.0
+[2026-08-09T14:46:32] ai-call server/database/db.js status=200 attempts=1 ms=1512 cat=infrastructure score=8.0
+[2026-08-09T14:46:32] ai-call server/middleware/admin/authMiddleware.js status=200 attempts=1 ms=1578 cat=core-business-logic score=8.0
+[2026-08-09T14:46:32] ai-call server/middleware/teacher/authmiddleware.js status=200 attempts=1 ms=1073 cat=core-business-logic score=8.0
+[2026-08-09T14:46:33] ai-call client/app/student/components/AuthWrapper.js status=200 attempts=1 ms=1136 cat=core-business-logic score=8.0
+[2026-08-09T14:46:33] ai-call client/app/context/NavigationContext.js status=200 attempts=1 ms=1837 cat=core-business-logic score=8.0
+[2026-08-09T14:46:33] ai-call client/app/teacher/components/AuthWrapper.js status=200 attempts=1 ms=1548 cat=core-business-logic score=8.0
+[2026-08-09T14:46:34] ai-call server/models/admin/FeesHistory.js status=200 attempts=1 ms=1734 cat=core-business-logic score=8.0
+[2026-08-09T14:46:35] ai-call server/middleware/student/authmiddleware.js status=200 attempts=1 ms=1066 cat=core-business-logic score=8.0
+[2026-08-09T14:46:36] ai-call client/app/components/NavigationProgressBar.js status=200 attempts=1 ms=1452 cat=core-business-logic score=7.0
+[2026-08-09T14:46:36] ai-call server/routes/admin/FeesHistoryRoute.js status=200 attempts=1 ms=1937 cat=core-business-logic score=7.0
+[2026-08-09T14:46:36] ai-call server/models/admin/User_School_Admin.js status=200 attempts=1 ms=1828 cat=core-business-logic score=8.0
+[2026-08-09T14:46:37] ai-call server/routes/admin/User_School_admin_route.js status=200 attempts=1 ms=1409 cat=core-business-logic score=8.0
+[2026-08-09T14:46:37] ai-call server/routes/admin/auth.js status=200 attempts=1 ms=1409 cat=core-business-logic score=9.0
+[2026-08-09T14:46:37] ai-call client/app/student/components/Navbar.js status=200 attempts=1 ms=1498 cat=core-business-logic score=8.0
+[2026-08-09T14:46:38] ai-call server/models/student/student.js status=200 attempts=1 ms=1069 cat=core-business-logic score=8.0
+[2026-08-09T14:46:39] ai-call server/models/admin/Fees.js status=200 attempts=1 ms=1162 cat=core-business-logic score=8.0
+[2026-08-09T14:46:41] ai-call server/routes/student/auth.js status=200 attempts=1 ms=1144 cat=core-business-logic score=9.0
+[2026-08-09T14:46:41] ai-call server/models/teacher/profile.js status=200 attempts=1 ms=1764 cat=core-business-logic score=8.0
+[2026-08-09T14:46:41] ai-call server/routes/admin/FeesRoute.js status=200 attempts=1 ms=1058 cat=core-business-logic score=8.0
+[2026-08-09T14:46:42] ai-call server/models/teacher/timetable.js status=200 attempts=1 ms=1643 cat=core-business-logic score=8.0
+[2026-08-09T14:46:45] ai-call server/models/admin/timetable.js status=200 attempts=1 ms=1588 cat=core-business-logic score=8.0
+[2026-08-09T14:46:49] ai-call server/models/admin/teacher.js status=200 attempts=1 ms=6467 cat=core-business-logic score=8.0
+[2026-08-09T14:46:52] ai-call server/routes/teacher/teacherRoute.js status=200 attempts=1 ms=11317 cat=core-business-logic score=8.0
+[2026-08-09T14:46:56] ai-call client/app/components/HomeNavbar.js status=200 attempts=1 ms=14065 cat=core-business-logic score=8.0
+[2026-08-09T14:46:56]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 26337, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blended': True}
+[2026-08-09T14:46:56]   phase ai: 26.4s
+[2026-08-09T14:46:56] TOTAL: 40.1s
+[2026-08-09T14:48:00] *** AI UNAVAILABLE (BILLING): the OpenRouter account could not be billed for the configured model. Files fell back to structural reasons. Add credits at openrouter.ai/settings/credits (or fix OPENROUTER_API_KEY), then re-analyze. ***
+[2026-08-09T16:07:04] analyzing https://github.com/suzyeaston/suzyeastonca
+[2026-08-09T16:07:14]   phase clone: 9.7s
+[2026-08-09T16:07:14]   phase sampling-prep: 0.2s (commits=1473)
+[2026-08-09T16:07:18]   phase sampling: 3.9s
+[2026-08-09T16:07:18]   spikes: 7
+[2026-08-09T16:07:18]   phase spikes: 0.0s
+[2026-08-09T16:07:18]   file_metrics: 75, decay flags: 36
+[2026-08-09T16:07:18]   phase ownership: 0.2s
+[2026-08-09T16:07:18]   onboarding files: 34
+[2026-08-09T16:07:18]   phase onboarding: 0.4s
+[2026-08-09T16:07:21] ai-call scripts/sync-cov-open-data.js status=200 attempts=1 ms=1250 cat=core-business-logic score=8.0
+.0
+[2026-08-09T16:07:22] ai-call js/bio-sections.js status=200 attempts=1 ms=1215 cat=core-business-logic score=4.0
+[2026-08-09T16:07:22] ai-call js/title-color.js status=200 attempts=1 ms=1218 cat=core-business-logic score=5.0
+[2026-08-09T16:07:22] ai-call js/gastown-dialog.js status=200 attempts=1 ms=2474 cat=reusable-utility score=8.0
+[2026-08-09T16:07:23] ai-call js/gastown-building-normalizer.js status=200 attempts=1 ms=2833 cat=core-business-logic score=8.0
+[2026-08-09T16:07:23] ai-call playwright.config.js status=200 attempts=1 ms=2052 cat=config score=7.0
+[2026-08-09T16:07:24] ai-call js/now-playing.js status=200 attempts=1 ms=1302 cat=core-business-logic score=5.0
+[2026-08-09T16:07:25] ai-call js/piano-script.js status=200 attempts=1 ms=1505 cat=core-business-logic score=5.0
+[2026-08-09T16:07:25] ai-call src/lib/wordpress.ts status=200 attempts=1 ms=1512 cat=core-business-logic score=7.0
+[2026-08-09T16:07:25] ai-call js/game-init.js status=200 attempts=1 ms=1478 cat=core-business-logic score=7.0
+[2026-08-09T16:07:26] ai-call scripts/lo-remote.py status=200 attempts=1 ms=1369 cat=infrastructure score=7.0
+[2026-08-09T16:07:27] ai-call js/home-arcade-start.js status=200 attempts=1 ms=1951 cat=core-business-logic score=7.0
+[2026-08-09T16:07:27] ai-call src/islands/HeroHarbor.tsx status=200 attempts=1 ms=1699 cat=core-business-logic score=7.0
+[2026-08-09T16:07:27] ai-call scripts/clear-lo-logs-ssh.py status=200 attempts=1 ms=1484 cat=core-business-logic score=7.0
+[2026-08-09T16:07:29] ai-call scripts/build-gastown-world.js status=200 attempts=1 ms=1503 cat=core-business-logic score=8.0
+[2026-08-09T16:07:30] ai-call scripts/deploy-lousy-outages-ssh.py status=200 attempts=1 ms=1532 cat=infrastructure score=7.0
+[2026-08-09T16:07:30] ai-call js/starfield.js status=200 attempts=1 ms=1315 cat=core-business-logic score=7.0
+[2026-08-09T16:07:31] ai-call js/bio-crawl.js status=200 attempts=1 ms=1612 cat=core-business-logic score=7.0
+[2026-08-09T16:07:32] ai-call js/hero-ship-drag.js status=200 attempts=1 ms=1992 cat=core-business-logic score=8.0
+[2026-08-09T16:07:34] ai-call js/home-city-scanner.js status=200 attempts=1 ms=2649 cat=core-business-logic score=8.0
+[2026-08-09T16:07:38] ai-call js/hero-galaga.js status=200 attempts=1 ms=6946 cat=core-business-logic score=8.0
+[2026-08-09T16:07:41] ai-call js/home-hero-map.js status=200 attempts=1 ms=6782 cat=core-business-logic score=8.0
+[2026-08-09T16:07:45] ai-call js/hockey-game.js status=200 attempts=1 ms=13094 cat=core-business-logic score=8.0
+[2026-08-09T16:07:45]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 26251, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blended': True}
+[2026-08-09T16:07:45]   phase ai: 26.3s
+[2026-08-09T16:07:45] TOTAL: 40.7s
+[2026-08-09T16:09:03] analyzing https://github.com/suzyeaston/suzyeastonca
+[2026-08-09T16:09:11]   phase clone: 7.8s
+[2026-08-09T16:09:11]   phase sampling-prep: 0.1s (commits=1473)
+[2026-08-09T16:09:15]   phase sampling: 3.7s
+[2026-08-09T16:09:15]   spikes: 7
+[2026-08-09T16:09:15]   phase spikes: 0.0s
+[2026-08-09T16:09:15]   file_metrics: 75, decay flags: 36
+[2026-08-09T16:09:15]   phase ownership: 0.1s
+[2026-08-09T16:09:16]   onboarding files: 34
+[2026-08-09T16:09:16]   phase onboarding: 0.4s
+[2026-08-09T16:09:18] ai-call js/gastown-dialog.js status=200 attempts=1 ms=1432 cat=reusable-utility score=8.0
+[2026-08-09T16:09:18] ai-call js/loop-lab.js status=200 attempts=1 ms=1193 cat=core-business-logic score=8.0
+[2026-08-09T16:09:18] ai-call scripts/generate-gastown-world.js status=200 attempts=1 ms=1807 cat=core-business-logic score=8.0
+[2026-08-09T16:09:18] ai-call js/gastown-building-normalizer.js status=200 attempts=1 ms=1401 cat=core-business-logic score=8.0
+[2026-08-09T16:09:18] ai-call js/bio-sections.js status=200 attempts=1 ms=1145 cat=core-business-logic score=4.0
+[2026-08-09T16:09:18] ai-call scripts/sync-cov-open-data.js status=200 attempts=1 ms=1605 cat=core-business-logic score=8.0
+[2026-08-09T16:09:18] ai-call js/title-color.js status=200 attempts=1 ms=1075 cat=core-business-logic score=5.0
+[2026-08-09T16:09:19] ai-call playwright.config.js status=200 attempts=1 ms=1624 cat=config score=7.0
+[2026-08-09T16:09:21] ai-call js/now-playing.js status=200 attempts=1 ms=1533 cat=core-business-logic score=6.0
+[2026-08-09T16:09:21] ai-call src/lib/wordpress.ts status=200 attempts=1 ms=1158 cat=core-business-logic score=7.0
+[2026-08-09T16:09:21] ai-call js/piano-script.js status=200 attempts=1 ms=1732 cat=core-business-logic score=5.0
+[2026-08-09T16:09:21] ai-call js/game-init.js status=200 attempts=1 ms=1329 cat=core-business-logic score=6.0
+[2026-08-09T16:09:22] ai-call scripts/lo-remote.py status=200 attempts=1 ms=1245 cat=infrastructure score=7.0
+[2026-08-09T16:09:23] ai-call src/islands/HeroHarbor.tsx status=200 attempts=1 ms=1495 cat=core-business-logic score=7.0
+[2026-08-09T16:09:23] ai-call scripts/clear-lo-logs-ssh.py status=200 attempts=1 ms=1189 cat=core-business-logic score=7.0
+[2026-08-09T16:09:24] ai-call js/home-arcade-start.js status=200 attempts=1 ms=2824 cat=core-business-logic score=7.0
+[2026-08-09T16:09:25] ai-call scripts/build-gastown-world.js status=200 attempts=1 ms=1088 cat=core-business-logic score=8.0
+[2026-08-09T16:09:26] ai-call scripts/deploy-lousy-outages-ssh.py status=200 attempts=1 ms=1933 cat=infrastructure score=7.0
+[2026-08-09T16:09:26] ai-call js/starfield.js status=200 attempts=1 ms=1555 cat=core-business-logic score=7.0
+[2026-08-09T16:09:27] ai-call js/bio-crawl.js status=200 attempts=1 ms=1621 cat=core-business-logic score=7.0
+[2026-08-09T16:09:27] ai-call js/hero-ship-drag.js status=200 attempts=1 ms=1517 cat=core-business-logic score=8.0
+[2026-08-09T16:09:30] ai-call js/hero-galaga.js status=200 attempts=1 ms=3543 cat=core-business-logic score=8.0
+[2026-08-09T16:09:35] ai-call js/home-hero-map.js status=200 attempts=1 ms=5580 cat=core-business-logic score=8.0
+[2026-08-09T16:09:37] ai-call js/home-city-scanner.js status=200 attempts=1 ms=9072 cat=core-business-logic score=8.0
+[2026-08-09T16:09:41] ai-call js/hockey-game.js status=200 attempts=1 ms=13312 cat=core-business-logic score=8.0
+[2026-08-09T16:09:41]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 24990, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blended': True}
+[2026-08-09T16:09:41]   phase ai: 25.0s
+[2026-08-09T16:09:41] TOTAL: 37.2s
+[2026-08-09T16:31:06] analyzing https://github.com/laribright/gadgets-app-react-native
+[2026-08-09T16:31:15]   phase clone: 9.0s
+[2026-08-09T16:31:15]   phase sampling-prep: 0.2s (commits=2)
+[2026-08-09T16:31:16]   phase sampling: 0.1s
+[2026-08-09T16:31:16]   spikes: 0
+[2026-08-09T16:31:16]   phase spikes: 0.0s
+[2026-08-09T16:31:16]   file_metrics: 37, decay flags: 0
+[2026-08-09T16:31:16]   phase ownership: 0.1s
+[2026-08-09T16:31:16]   onboarding files: 31
+[2026-08-09T16:31:16]   phase onboarding: 0.2s
+[2026-08-09T16:31:19] ai-call src/lib/supabase.ts status=200 attempts=1 ms=2014 cat=infrastructure score=8.0
+[2026-08-09T16:31:19] ai-call src/providers/auth-provider.tsx status=200 attempts=1 ms=1918 cat=core-business-logic score=8.0
+[2026-08-09T16:31:19] ai-call src/types/database.types.ts status=200 attempts=1 ms=2116 cat=core-business-logic score=8.0
+[2026-08-09T16:31:20] ai-call src/api/api.ts status=200 attempts=1 ms=2641 cat=core-business-logic score=9.0
+[2026-08-09T16:31:20] ai-call src/store/cart-store.ts status=200 attempts=1 ms=2536 cat=core-business-logic score=8.0
+[2026-08-09T16:31:20] ai-call src/components/product-list-item.tsx status=200 attempts=1 ms=2540 cat=core-business-logic score=7.0
+[2026-08-09T16:31:20] ai-call src/utils/utils.ts status=200 attempts=1 ms=2531 cat=reusable-utility score=7.0
+[2026-08-09T16:31:21] ai-call src/api/subscriptions.ts status=200 attempts=1 ms=2650 cat=core-business-logic score=7.0
+[2026-08-09T16:31:22] ai-call src/providers/query-provider.tsx status=200 attempts=1 ms=1338 cat=infrastructure score=7.0
+[2026-08-09T16:31:22] ai-call supabase/functions/supabase.ts status=200 attempts=1 ms=1351 cat=core-business-logic score=8.0
+[2026-08-09T16:31:23] ai-call src/lib/stripe.ts status=200 attempts=1 ms=1499 cat=core-business-logic score=8.0
+[2026-08-09T16:31:23] ai-call src/providers/notification-provider.tsx status=200 attempts=1 ms=1199 cat=core-business-logic score=8.0
+[2026-08-09T16:31:24] ai-call src/components/list-header.tsx status=200 attempts=1 ms=1437 cat=core-business-logic score=8.0
+[2026-08-09T16:31:24] ai-call src/lib/notifications.ts status=200 attempts=1 ms=1283 cat=core-business-logic score=8.0
+[2026-08-09T16:31:25] ai-call babel.config.js status=200 attempts=1 ms=1302 cat=config score=5.0
+[2026-08-09T16:31:25] ai-call src/app/product/index.tsx status=200 attempts=1 ms=1602 cat=reusable-utility score=4.0
+[2026-08-09T16:31:27] ai-call App.tsx status=200 attempts=1 ms=1787 cat=core-business-logic score=5.0
+[2026-08-09T16:31:27] ai-call src/app/+not-found.tsx status=200 attempts=1 ms=1091 cat=core-business-logic score=4.0
+[2026-08-09T16:31:28] ai-call src/app/(shop)/orders/_layout.tsx status=200 attempts=1 ms=1172 cat=core-business-logic score=6.0
+[2026-08-09T16:31:28] ai-call src/app/categories/_layout.tsx status=200 attempts=1 ms=1237 cat=core-business-logic score=6.0
+[2026-08-09T16:31:29] ai-call src/app/product/_layout.tsx status=200 attempts=1 ms=1118 cat=core-business-logic score=6.0
+[2026-08-09T16:31:32] ai-call supabase/functions/stripe-checkout/index.ts status=200 attempts=1 ms=3254 cat=core-business-logic score=8.0
+[2026-08-09T16:31:35] ai-call src/app/(shop)/index.tsx status=200 attempts=1 ms=5318 cat=core-business-logic score=8.0
+[2026-08-09T16:31:39] ai-call src/app/(shop)/_layout.tsx status=200 attempts=1 ms=7511 cat=core-business-logic score=8.0
+[2026-08-09T16:31:42] ai-call src/app/_layout.tsx status=200 attempts=1 ms=13210 cat=core-business-logic score=8.0
+[2026-08-09T16:31:42]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 26265, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'normalized-0to1', 'normalized': True, 'blended': True}
+[2026-08-09T16:31:42]   phase ai: 26.3s
+[2026-08-09T16:31:42] TOTAL: 36.0s
+[2026-08-09T16:38:59] analyzing https://github.com/student-care-tool/SchoolFlow
+[2026-08-09T16:39:01] FAILED:
+Traceback (most recent call last):
+  File "C:\Users\hp\OneDrive\Desktop\New folder (2)\worker\analyzer.py", line 416, in run
+    repo_path = clone_repo(url, tmp)
+  File "C:\Users\hp\OneDrive\Desktop\New folder (2)\worker\analyzer.py", line 86, in clone_repo
+    git.Repo.clone_from(url, target, depth=None)
+  File "C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\git\repo\base.py", line 1525, in clone_from
+    return cls._clone(
+  File "C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\git\repo\base.py", line 1396, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\git\util.py", line 504, in finalize_process
+    proc.wait(**kwargs)
+  File "C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\git\cmd.py", line 834, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v -- https://github.com/student-care-tool/SchoolFlow C:\Users\hp\AppData\Local\Temp\pathfinder-eg7jleni\SchoolFlow
+  stderr: 'Cloning into 'C:\Users\hp\AppData\Local\Temp\pathfinder-eg7jleni\SchoolFlow'...
+remote: Repository not found.
+fatal: repository 'https://github.com/student-care-tool/SchoolFlow/' not found
+'
+
+[2026-08-09T16:43:47] analyzing https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T16:43:53]   phase clone: 6.6s
+[2026-08-09T16:43:53]   phase sampling-prep: 0.2s (commits=46)
+[2026-08-09T16:44:05]   phase sampling: 11.6s
+[2026-08-09T16:44:05]   spikes: 6
+[2026-08-09T16:44:05]   phase spikes: 0.0s
+[2026-08-09T16:44:05]   file_metrics: 685, decay flags: 684
+[2026-08-09T16:44:05]   phase ownership: 0.2s
+[2026-08-09T16:44:06]   onboarding files: 72
+[2026-08-09T16:44:06]   phase onboarding: 0.7s
+[2026-08-09T16:44:09] ai-call client/app/admin/components/AuthWrapper.js status=200 attempts=1 ms=1460 cat=core-business-logic score=7.0
+[2026-08-09T16:44:09] ai-call client/app/context/NavigationContext.js status=200 attempts=1 ms=1290 cat=core-business-logic score=7.0
+[2026-08-09T16:44:09] ai-call server/database/db.js status=200 attempts=1 ms=2065 cat=infrastructure score=6.0
+[2026-08-09T16:44:09] ai-call server/middleware/admin/authMiddleware.js status=200 attempts=1 ms=2066 cat=core-business-logic score=8.0
+[2026-08-09T16:44:09] ai-call server/middleware/teacher/authmiddleware.js status=200 attempts=1 ms=1461 cat=core-business-logic score=8.0
+[2026-08-09T16:44:09] ai-call client/app/teacher/components/AuthWrapper.js status=200 attempts=1 ms=1487 cat=core-business-logic score=7.0
+[2026-08-09T16:44:10] ai-call server/models/admin/FeesHistory.js status=200 attempts=1 ms=1441 cat=core-business-logic score=6.0
+[2026-08-09T16:44:10] ai-call client/app/student/components/AuthWrapper.js status=200 attempts=1 ms=2176 cat=core-business-logic score=7.0
+[2026-08-09T16:44:12] ai-call server/routes/admin/FeesHistoryRoute.js status=200 attempts=1 ms=1518 cat=core-business-logic score=6.0
+[2026-08-09T16:44:12] ai-call server/middleware/student/authmiddleware.js status=200 attempts=1 ms=1777 cat=core-business-logic score=8.0
+[2026-08-09T16:44:13] ai-call client/app/components/NavigationProgressBar.js status=200 attempts=1 ms=1885 cat=core-business-logic score=5.0
+[2026-08-09T16:44:13] ai-call server/routes/admin/auth.js status=200 attempts=1 ms=1121 cat=core-business-logic score=8.0
+[2026-08-09T16:44:13] ai-call server/routes/admin/User_School_admin_route.js status=200 attempts=1 ms=1683 cat=core-business-logic score=7.0
+[2026-08-09T16:44:14] ai-call server/models/admin/User_School_Admin.js status=200 attempts=1 ms=2605 cat=core-business-logic score=6.0
+[2026-08-09T16:44:15] ai-call server/models/student/student.js status=200 attempts=1 ms=1399 cat=core-business-logic score=7.0
+[2026-08-09T16:44:15] ai-call client/app/student/components/Navbar.js status=200 attempts=1 ms=2091 cat=core-business-logic score=6.0
+[2026-08-09T16:44:16] ai-call server/models/admin/Fees.js status=200 attempts=1 ms=1252 cat=core-business-logic score=7.0
+[2026-08-09T16:44:17] ai-call server/models/teacher/profile.js status=200 attempts=1 ms=1587 cat=core-business-logic score=8.0
+[2026-08-09T16:44:18] ai-call server/routes/student/auth.js status=200 attempts=1 ms=1308 cat=core-business-logic score=8.0
+[2026-08-09T16:44:18] ai-call server/models/teacher/timetable.js status=200 attempts=1 ms=1113 cat=core-business-logic score=8.0
+[2026-08-09T16:44:18] ai-call server/routes/admin/FeesRoute.js status=200 attempts=1 ms=1641 cat=core-business-logic score=7.0
+[2026-08-09T16:44:21] ai-call server/routes/teacher/teacherRoute.js status=200 attempts=1 ms=3364 cat=core-business-logic score=7.0
+[2026-08-09T16:44:26] ai-call server/models/admin/timetable.js status=200 attempts=1 ms=4554 cat=core-business-logic score=8.0
+[2026-08-09T16:44:28] ai-call client/app/components/HomeNavbar.js status=200 attempts=1 ms=9440 cat=core-business-logic score=6.0
+[2026-08-09T16:44:31] ai-call server/models/admin/teacher.js status=200 attempts=1 ms=12176 cat=core-business-logic score=7.0
+[2026-08-09T16:44:31]   ai-score distribution (n=25): {5.0: 1, 6.0: 6, 7.0: 10, 8.0: 8}
+[2026-08-09T16:44:31]   pure-import-count order (reference): server/database/db.js(19), server/middleware/admin/authMiddleware.js(7), client/app/admin/components/AuthWrapper.js(7), client/app/context/NavigationContext.js(6), server/middleware/teacher/authmiddleware.js(5), client/app/teacher/components/AuthWrapper.js(4), client/app/student/components/AuthWrapper.js(4), server/models/admin/FeesHistory.js(2), server/middleware/student/authmiddleware.js(2), server/routes/admin/FeesHistoryRoute.js(1)
+[2026-08-09T16:44:31]   top-12 pre-blend (rank | indeg | norm_struct | raw_ai | norm_ai | final | path):
+[2026-08-09T16:44:31]     # 1 |  19 | 1.000 | 6.0 |  0.600 | 0.8000 | server/database/db.js
+[2026-08-09T16:44:31]     # 2 |   7 | 0.368 | 8.0 |  0.800 | 0.5842 | server/middleware/admin/authMiddleware.js
+[2026-08-09T16:44:31]     # 3 |   7 | 0.368 | 7.0 |  0.700 | 0.5342 | client/app/admin/components/AuthWrapper.js
+[2026-08-09T16:44:31]     # 4 |   5 | 0.263 | 8.0 |  0.800 | 0.5316 | server/middleware/teacher/authmiddleware.js
+[2026-08-09T16:44:31]     # 5 |   6 | 0.316 | 7.0 |  0.700 | 0.5079 | client/app/context/NavigationContext.js
+[2026-08-09T16:44:31]     # 6 |   4 | 0.211 | 7.0 |  0.700 | 0.4553 | client/app/teacher/components/AuthWrapper.js
+[2026-08-09T16:44:31]     # 7 |   4 | 0.211 | 7.0 |  0.700 | 0.4553 | client/app/student/components/AuthWrapper.js
+[2026-08-09T16:44:31]     # 8 |   2 | 0.105 | 8.0 |  0.800 | 0.4526 | server/middleware/student/authmiddleware.js
+[2026-08-09T16:44:31]     # 9 |   1 | 0.053 | 8.0 |  0.800 | 0.4263 | server/routes/admin/auth.js
+[2026-08-09T16:44:31]     #10 |   1 | 0.053 | 8.0 |  0.800 | 0.4263 | server/models/teacher/profile.js
+[2026-08-09T16:44:31]     #11 |   1 | 0.053 | 8.0 |  0.800 | 0.4263 | server/routes/student/auth.js
+[2026-08-09T16:44:31]     #12 |   1 | 0.053 | 8.0 |  0.800 | 0.4263 | server/models/teacher/timetable.js
+[2026-08-09T16:44:31]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 25505, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'normalized-0to1', 'normalized': True, 'blended': True}
+[2026-08-09T16:44:31]   phase ai: 25.5s
+[2026-08-09T16:44:31] TOTAL: 44.9s
+[2026-08-09T16:47:06] ai-call client/app/context/NavigationContext.js status=200 attempts=1 ms=1450 cat=reusable-utility score=5.0
+[2026-08-09T16:47:06] ai-call server/middleware/student/authmiddleware.js status=200 attempts=1 ms=1131 cat=infrastructure score=6.0
+[2026-08-09T16:47:06] ai-call client/app/admin/components/AuthWrapper.js status=200 attempts=1 ms=2268 cat=core-business-logic score=7.0
+[2026-08-09T16:47:07] ai-call server/database/db.js status=200 attempts=1 ms=2921 cat=infrastructure score=8.0
+[2026-08-09T16:47:07] ai-call client/app/student/components/AuthWrapper.js status=200 attempts=1 ms=2060 cat=core-business-logic score=6.0
+[2026-08-09T16:47:08] ai-call server/middleware/admin/authMiddleware.js status=200 attempts=1 ms=3792 cat=core-business-logic score=8.0
+[2026-08-09T16:47:08] ai-call server/middleware/teacher/authmiddleware.js status=200 attempts=1 ms=3401 cat=infrastructure score=6.0
+[2026-08-09T16:47:09] ai-call client/app/teacher/components/AuthWrapper.js status=200 attempts=1 ms=4030 cat=core-business-logic score=6.0
+[2026-08-09T16:47:09] ai-call server/routes/admin/auth.js status=200 attempts=1 ms=1380 cat=core-business-logic score=6.0
+[2026-08-09T16:47:09] ai-call server/models/teacher/profile.js status=200 attempts=1 ms=1303 cat=core-business-logic score=6.0
+[2026-08-09T16:47:10] ai-call server/routes/student/auth.js status=200 attempts=1 ms=1170 cat=core-business-logic score=6.0
+[2026-08-09T16:47:10] ai-call server/models/teacher/timetable.js status=200 attempts=1 ms=1154 cat=core-business-logic score=6.0
+[2026-08-09T16:47:11] ai-call server/models/admin/timetable.js status=200 attempts=1 ms=1247 cat=core-business-logic score=6.0
+[2026-08-09T16:47:12] ai-call server/routes/admin/User_School_admin_route.js status=200 attempts=1 ms=1708 cat=core-business-logic score=6.0
+[2026-08-09T16:47:12] ai-call server/models/student/student.js status=200 attempts=1 ms=1897 cat=core-business-logic score=6.0
+[2026-08-09T16:47:14] ai-call server/routes/admin/FeesRoute.js status=200 attempts=1 ms=1478 cat=core-business-logic score=6.0
+[2026-08-09T16:47:14] ai-call server/models/admin/Fees.js status=200 attempts=1 ms=2006 cat=core-business-logic score=6.0
+[2026-08-09T16:47:14] ai-call server/routes/teacher/teacherRoute.js status=200 attempts=1 ms=1212 cat=core-business-logic score=6.0
+[2026-08-09T16:47:15] ai-call server/models/admin/FeesHistory.js status=200 attempts=1 ms=1287 cat=core-business-logic score=6.0
+[2026-08-09T16:47:15] ai-call server/models/admin/teacher.js status=200 attempts=1 ms=1915 cat=core-business-logic score=6.0
+[2026-08-09T16:47:17] ai-call server/routes/admin/FeesHistoryRoute.js status=200 attempts=1 ms=2286 cat=core-business-logic score=4.0
+[2026-08-09T16:47:18] ai-call client/app/student/components/Navbar.js status=200 attempts=1 ms=1625 cat=core-business-logic score=4.0
+[2026-08-09T16:47:22] ai-call server/models/admin/User_School_Admin.js status=200 attempts=1 ms=5815 cat=core-business-logic score=6.0
+[2026-08-09T16:47:25] ai-call client/app/components/HomeNavbar.js status=200 attempts=1 ms=6734 cat=core-business-logic score=6.0
+[2026-08-09T16:47:28] ai-call client/app/components/NavigationProgressBar.js status=200 attempts=1 ms=9829 cat=reusable-utility score=3.0
+[2026-08-09T16:47:28]   ai-score distribution (n=25): {3.0: 1, 4.0: 2, 5.0: 1, 6.0: 18, 7.0: 1, 8.0: 2}
+[2026-08-09T16:47:28]   pure-import-count order (reference): server/database/db.js(19), server/middleware/admin/authMiddleware.js(7), client/app/admin/components/AuthWrapper.js(7), client/app/context/NavigationContext.js(6), server/middleware/teacher/authmiddleware.js(5), client/app/teacher/components/AuthWrapper.js(4), client/app/student/components/AuthWrapper.js(4), server/models/admin/FeesHistory.js(2), server/middleware/student/authmiddleware.js(2), server/routes/admin/FeesHistoryRoute.js(1)
+[2026-08-09T16:47:28]   top-12 pre-blend (rank | indeg | norm_struct | raw_ai | norm_ai | final | path):
+[2026-08-09T16:47:28]     # 1 |  19 | 1.000 | 8.0 |  0.800 | 0.9000 | server/database/db.js
+[2026-08-09T16:47:28]     # 2 |   7 | 0.368 | 8.0 |  0.800 | 0.5842 | server/middleware/admin/authMiddleware.js
+[2026-08-09T16:47:28]     # 3 |   7 | 0.368 | 7.0 |  0.700 | 0.5342 | client/app/admin/components/AuthWrapper.js
+[2026-08-09T16:47:28]     # 4 |   5 | 0.263 | 6.0 |  0.600 | 0.4316 | server/middleware/teacher/authmiddleware.js
+[2026-08-09T16:47:28]     # 5 |   6 | 0.316 | 5.0 |  0.500 | 0.4079 | client/app/context/NavigationContext.js
+[2026-08-09T16:47:28]     # 6 |   4 | 0.211 | 6.0 |  0.600 | 0.4053 | client/app/teacher/components/AuthWrapper.js
+[2026-08-09T16:47:28]     # 7 |   4 | 0.211 | 6.0 |  0.600 | 0.4053 | client/app/student/components/AuthWrapper.js
+[2026-08-09T16:47:28]     # 8 |   2 | 0.105 | 6.0 |  0.600 | 0.3526 | server/models/admin/FeesHistory.js
+[2026-08-09T16:47:28]     # 9 |   2 | 0.105 | 6.0 |  0.600 | 0.3526 | server/middleware/student/authmiddleware.js
+[2026-08-09T16:47:28]     #10 |   1 | 0.053 | 6.0 |  0.600 | 0.3263 | server/routes/admin/auth.js
+[2026-08-09T16:47:28]     #11 |   1 | 0.053 | 6.0 |  0.600 | 0.3263 | server/routes/admin/User_School_admin_route.js
+[2026-08-09T16:47:28]     #12 |   1 | 0.053 | 6.0 |  0.600 | 0.3263 | server/models/admin/User_School_Admin.js
+[2026-08-09T16:47:28]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 24782, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'normalized-0to1', 'normalized': True, 'blended': True}
+[2026-08-09T16:51:41] analyzing https://github.com/laribright/gadgets-app-react-native
+[2026-08-09T16:51:51]   phase clone: 10.3s
+[2026-08-09T16:51:51]   phase sampling-prep: 0.2s (commits=2)
+[2026-08-09T16:51:51]   phase sampling: 0.1s
+[2026-08-09T16:51:51]   spikes: 0
+[2026-08-09T16:51:51]   phase spikes: 0.0s
+[2026-08-09T16:51:51]   file_metrics: 37, decay flags: 0
+[2026-08-09T16:51:51]   phase ownership: 0.1s
+[2026-08-09T16:51:52]   onboarding files: 31
+[2026-08-09T16:51:52]   phase onboarding: 0.3s
+[2026-08-09T16:51:54] ai-call src/providers/auth-provider.tsx status=200 attempts=1 ms=1314 cat=core-business-logic score=8.0
+[2026-08-09T16:51:54] ai-call src/api/api.ts status=200 attempts=1 ms=1726 cat=core-business-logic score=8.0
+[2026-08-09T16:51:54] ai-call src/lib/supabase.ts status=200 attempts=1 ms=1937 cat=core-business-logic score=9.0
+[2026-08-09T16:51:54] ai-call src/types/database.types.ts status=200 attempts=1 ms=1533 cat=core-business-logic score=8.0
+[2026-08-09T16:51:54] ai-call src/components/product-list-item.tsx status=200 attempts=1 ms=1197 cat=reusable-utility score=4.0
+[2026-08-09T16:51:55] ai-call src/utils/utils.ts status=200 attempts=1 ms=1239 cat=reusable-utility score=3.0
+[2026-08-09T16:51:55] ai-call src/store/cart-store.ts status=200 attempts=1 ms=2054 cat=core-business-logic score=6.0
+[2026-08-09T16:51:55] ai-call src/api/subscriptions.ts status=200 attempts=1 ms=1450 cat=core-business-logic score=5.0
+[2026-08-09T16:51:57] ai-call src/providers/query-provider.tsx status=200 attempts=1 ms=1262 cat=infrastructure score=3.0
+[2026-08-09T16:51:57] ai-call src/lib/stripe.ts status=200 attempts=1 ms=1063 cat=core-business-logic score=6.0
+[2026-08-09T16:51:57] ai-call supabase/functions/supabase.ts status=200 attempts=1 ms=1401 cat=core-business-logic score=7.0
+[2026-08-09T16:51:59] ai-call src/lib/notifications.ts status=200 attempts=1 ms=1592 cat=reusable-utility score=4.0
+[2026-08-09T16:51:59] ai-call babel.config.js status=200 attempts=1 ms=1083 cat=config score=2.0
+[2026-08-09T16:52:00] ai-call src/providers/notification-provider.tsx status=200 attempts=1 ms=3078 cat=infrastructure score=5.0
+[2026-08-09T16:52:00] ai-call src/components/list-header.tsx status=200 attempts=1 ms=3154 cat=core-business-logic score=6.0
+[2026-08-09T16:52:00] ai-call src/app/product/index.tsx status=200 attempts=1 ms=2200 cat=reusable-utility score=2.0
+[2026-08-09T16:52:01] ai-call App.tsx status=200 attempts=1 ms=1508 cat=infrastructure score=2.0
+[2026-08-09T16:52:02] ai-call src/app/+not-found.tsx status=200 attempts=1 ms=1293 cat=core-business-logic score=2.0
+[2026-08-09T16:52:03] ai-call src/app/(shop)/orders/_layout.tsx status=200 attempts=1 ms=1974 cat=core-business-logic score=3.0
+[2026-08-09T16:52:05] ai-call src/app/product/_layout.tsx status=200 attempts=1 ms=1712 cat=infrastructure score=3.0
+[2026-08-09T16:52:05] ai-call src/app/categories/_layout.tsx status=200 attempts=1 ms=2434 cat=infrastructure score=3.0
+[2026-08-09T16:52:07] ai-call supabase/functions/stripe-checkout/index.ts status=200 attempts=1 ms=3075 cat=core-business-logic score=6.0
+[2026-08-09T16:52:11] ai-call src/app/(shop)/_layout.tsx status=200 attempts=1 ms=5014 cat=core-business-logic score=6.0
+[2026-08-09T16:52:15] ai-call src/app/_layout.tsx status=200 attempts=1 ms=10391 cat=infrastructure score=5.0
+[2026-08-09T16:52:17] ai-call src/app/(shop)/index.tsx status=200 attempts=1 ms=11982 cat=core-business-logic score=4.0
+[2026-08-09T16:52:17]   ai-score distribution (n=25): {2.0: 4, 3.0: 5, 4.0: 3, 5.0: 3, 6.0: 5, 7.0: 1, 8.0: 3, 9.0: 1}
+[2026-08-09T16:52:17]   pure-import-count order (reference): src/lib/supabase.ts(7), src/api/api.ts(6), src/providers/auth-provider.tsx(4), src/types/database.types.ts(4), src/store/cart-store.ts(3), src/components/product-list-item.tsx(2), src/utils/utils.ts(1), src/api/subscriptions.ts(1), src/providers/query-provider.tsx(1), supabase/functions/supabase.ts(1)
+[2026-08-09T16:52:17]   top-12 pre-blend (rank | indeg | norm_struct | raw_ai | norm_ai | final | path):
+[2026-08-09T16:52:17]     # 1 |   7 | 1.000 | 9.0 |  0.900 | 0.9500 | src/lib/supabase.ts
+[2026-08-09T16:52:17]     # 2 |   6 | 0.857 | 8.0 |  0.800 | 0.8286 | src/api/api.ts
+[2026-08-09T16:52:17]     # 3 |   4 | 0.571 | 8.0 |  0.800 | 0.6857 | src/providers/auth-provider.tsx
+[2026-08-09T16:52:17]     # 4 |   4 | 0.571 | 8.0 |  0.800 | 0.6857 | src/types/database.types.ts
+[2026-08-09T16:52:17]     # 5 |   3 | 0.429 | 6.0 |  0.600 | 0.5143 | src/store/cart-store.ts
+[2026-08-09T16:52:17]     # 6 |   1 | 0.143 | 7.0 |  0.700 | 0.4214 | supabase/functions/supabase.ts
+[2026-08-09T16:52:17]     # 7 |   1 | 0.143 | 6.0 |  0.600 | 0.3714 | src/lib/stripe.ts
+[2026-08-09T16:52:17]     # 8 |   1 | 0.143 | 6.0 |  0.600 | 0.3714 | src/components/list-header.tsx
+[2026-08-09T16:52:17]     # 9 |   2 | 0.286 | 4.0 |  0.400 | 0.3429 | src/components/product-list-item.tsx
+[2026-08-09T16:52:17]     #10 |   1 | 0.143 | 5.0 |  0.500 | 0.3214 | src/api/subscriptions.ts
+[2026-08-09T16:52:17]     #11 |   1 | 0.143 | 5.0 |  0.500 | 0.3214 | src/providers/notification-provider.tsx
+[2026-08-09T16:52:17]     #12 |   0 | 0.000 | 6.0 |  0.600 | 0.3000 | supabase/functions/stripe-checkout/index.ts
+[2026-08-09T16:52:17]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 25103, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'normalized-0to1', 'normalized': True, 'blended': True}
+[2026-08-09T16:52:17]   phase ai: 25.1s
+[2026-08-09T16:52:17] TOTAL: 36.1s
+[2026-08-09T16:53:10] analyzing https://github.com/deepseek-ai/deepseek-v3
+[2026-08-09T16:53:13]   phase clone: 3.1s
+[2026-08-09T16:53:13]   phase sampling-prep: 0.2s (commits=73)
+[2026-08-09T16:53:17]   phase sampling: 3.3s
+[2026-08-09T16:53:17]   spikes: 0
+[2026-08-09T16:53:17]   phase spikes: 0.0s
+[2026-08-09T16:53:17]   file_metrics: 5, decay flags: 0
+[2026-08-09T16:53:17]   phase ownership: 0.1s
+[2026-08-09T16:53:17]   onboarding files: 5
+[2026-08-09T16:53:17]   phase onboarding: 0.0s
+[2026-08-09T16:53:19] ai-call inference/kernel.py status=200 attempts=1 ms=1562 cat=core-business-logic score=8.0
+[2026-08-09T16:53:19] ai-call inference/convert.py status=200 attempts=1 ms=1444 cat=reusable-utility score=4.0
+[2026-08-09T16:53:19] ai-call inference/model.py status=200 attempts=1 ms=1096 cat=core-business-logic score=8.0
+[2026-08-09T16:53:19] ai-call inference/generate.py status=200 attempts=1 ms=1548 cat=core-business-logic score=8.0
+[2026-08-09T16:53:20] ai-call inference/fp8_cast_bf16.py status=200 attempts=1 ms=2394 cat=core-business-logic score=7.0
+[2026-08-09T16:53:20]   ai-score distribution (n=5): {4.0: 1, 7.0: 1, 8.0: 3}
+[2026-08-09T16:53:20]   pure-import-count order (reference): inference/fp8_cast_bf16.py(0), inference/kernel.py(0), inference/convert.py(0), inference/generate.py(0), inference/model.py(0)
+[2026-08-09T16:53:20]   top-12 pre-blend (rank | indeg | norm_struct | raw_ai | norm_ai | final | path):
+[2026-08-09T16:53:20]     # 1 |   0 | 0.000 | 8.0 |  0.800 | 0.4000 | inference/kernel.py
+[2026-08-09T16:53:20]     # 2 |   0 | 0.000 | 8.0 |  0.800 | 0.4000 | inference/generate.py
+[2026-08-09T16:53:20]     # 3 |   0 | 0.000 | 8.0 |  0.800 | 0.4000 | inference/model.py
+[2026-08-09T16:53:20]     # 4 |   0 | 0.000 | 7.0 |  0.700 | 0.3500 | inference/fp8_cast_bf16.py
+[2026-08-09T16:53:20]     # 5 |   0 | 0.000 | 4.0 |  0.400 | 0.2000 | inference/convert.py
+[2026-08-09T16:53:20]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 5, 'classified_count': 5, 'fallback_count': 0, 'duration_ms': 2600, 'max_concurrent': 5, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'normalized-0to1', 'normalized': True, 'blended': True}
+[2026-08-09T16:53:20]   phase ai: 2.6s
+[2026-08-09T16:53:20] TOTAL: 9.3s
+[2026-08-09T16:55:18] analyzing https://github.com/huggingface/open-r1
+[2026-08-09T16:55:25]   phase clone: 7.2s
+[2026-08-09T16:55:25]   phase sampling-prep: 0.2s (commits=199)
+[2026-08-09T16:55:30]   phase sampling: 4.6s
+[2026-08-09T16:55:30]   spikes: 5
+[2026-08-09T16:55:30]   phase spikes: 0.0s
+[2026-08-09T16:55:30]   file_metrics: 65, decay flags: 36
+[2026-08-09T16:55:30]   phase ownership: 0.1s
+[2026-08-09T16:55:30]   onboarding files: 35
+[2026-08-09T16:55:30]   phase onboarding: 0.5s
+[2026-08-09T16:55:33] ai-call src/open_r1/configs.py status=200 attempts=1 ms=1816 cat=config score=8.0
+[2026-08-09T16:55:33] ai-call src/open_r1/utils/__init__.py status=200 attempts=1 ms=1605 cat=reusable-utility score=5.0
+[2026-08-09T16:55:33] ai-call src/open_r1/rewards.py status=200 attempts=1 ms=1612 cat=core-business-logic score=7.0
+[2026-08-09T16:55:33] ai-call src/open_r1/utils/import_utils.py status=200 attempts=1 ms=1222 cat=reusable-utility score=2.0
+[2026-08-09T16:55:33] ai-call src/open_r1/utils/competitive_programming/piston_client.py status=200 attempts=1 ms=1420 cat=reusable-utility score=6.0
+[2026-08-09T16:55:33] ai-call src/open_r1/utils/competitive_programming/utils.py status=200 attempts=1 ms=1214 cat=reusable-utility score=3.0
+[2026-08-09T16:55:34] ai-call src/open_r1/utils/wandb_logging.py status=200 attempts=1 ms=1266 cat=reusable-utility score=3.0
+[2026-08-09T16:55:34] ai-call src/open_r1/utils/competitive_programming/ioi_utils.py status=200 attempts=1 ms=1834 cat=reusable-utility score=5.0
+[2026-08-09T16:55:36] ai-call src/open_r1/utils/data.py status=200 attempts=1 ms=1186 cat=reusable-utility score=5.0
+[2026-08-09T16:55:36] ai-call src/open_r1/utils/evaluation.py status=200 attempts=1 ms=1322 cat=reusable-utility score=5.0
+[2026-08-09T16:55:36] ai-call src/open_r1/utils/routed_morph.py status=200 attempts=1 ms=1260 cat=reusable-utility score=5.0
+[2026-08-09T16:55:37] ai-call src/open_r1/utils/callbacks.py status=200 attempts=1 ms=1177 cat=reusable-utility score=4.0
+[2026-08-09T16:55:37] ai-call src/open_r1/utils/routed_sandbox.py status=200 attempts=1 ms=1670 cat=reusable-utility score=5.0
+[2026-08-09T16:55:37] ai-call src/open_r1/utils/hub.py status=200 attempts=1 ms=1248 cat=reusable-utility score=5.0
+[2026-08-09T16:55:37] ai-call src/open_r1/utils/model_utils.py status=200 attempts=1 ms=1081 cat=reusable-utility score=5.0
+[2026-08-09T16:55:39] ai-call src/open_r1/utils/competitive_programming/code_patcher.py status=200 attempts=1 ms=2106 cat=reusable-utility score=5.0
+[2026-08-09T16:55:40] ai-call src/open_r1/utils/competitive_programming/cf_scoring.py status=200 attempts=1 ms=1261 cat=reusable-utility score=5.0
+[2026-08-09T16:55:41] ai-call src/open_r1/utils/competitive_programming/morph_client.py status=200 attempts=1 ms=1534 cat=reusable-utility score=4.0
+[2026-08-09T16:55:42] ai-call src/open_r1/utils/competitive_programming/ioi_scoring.py status=200 attempts=1 ms=2244 cat=core-business-logic score=6.0
+[2026-08-09T16:55:42] ai-call src/open_r1/__init__.py status=200 attempts=1 ms=1408 cat=config score=1.0
+[2026-08-09T16:55:43] ai-call scripts/benchmark_e2b.py status=200 attempts=1 ms=2313 cat=reusable-utility score=3.0
+[2026-08-09T16:55:46] ai-call scripts/e2b_router.py status=200 attempts=1 ms=4438 cat=core-business-logic score=7.0
+[2026-08-09T16:55:50] ai-call scripts/run_benchmarks.py status=200 attempts=1 ms=5219 cat=reusable-utility score=3.0
+[2026-08-09T16:55:54] ai-call scripts/get_tensor_parallel_size.py status=200 attempts=1 ms=9767 cat=reusable-utility score=3.0
+[2026-08-09T16:55:56] ai-call setup.py status=200 attempts=1 ms=14871 cat=config score=2.0
+[2026-08-09T16:55:56]   ai-score distribution (n=25): {1.0: 1, 2.0: 2, 3.0: 5, 4.0: 2, 5.0: 10, 6.0: 2, 7.0: 2, 8.0: 1}
+[2026-08-09T16:55:56]   pure-import-count order (reference): src/open_r1/configs.py(8), src/open_r1/utils/__init__.py(5), src/open_r1/rewards.py(5), src/open_r1/utils/competitive_programming/piston_client.py(3), src/open_r1/utils/import_utils.py(2), src/open_r1/utils/competitive_programming/utils.py(2), src/open_r1/utils/wandb_logging.py(2), src/open_r1/utils/competitive_programming/ioi_utils.py(2), src/open_r1/utils/data.py(2), src/open_r1/utils/evaluation.py(2)
+[2026-08-09T16:55:56]   top-12 pre-blend (rank | indeg | norm_struct | raw_ai | norm_ai | final | path):
+[2026-08-09T16:55:56]     # 1 |   8 | 1.000 | 8.0 |  0.800 | 0.9000 | src/open_r1/configs.py
+[2026-08-09T16:55:56]     # 2 |   5 | 0.625 | 7.0 |  0.700 | 0.6625 | src/open_r1/rewards.py
+[2026-08-09T16:55:56]     # 3 |   5 | 0.625 | 5.0 |  0.500 | 0.5625 | src/open_r1/utils/__init__.py
+[2026-08-09T16:55:56]     # 4 |   3 | 0.375 | 6.0 |  0.600 | 0.4875 | src/open_r1/utils/competitive_programming/piston_client.py
+[2026-08-09T16:55:56]     # 5 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/competitive_programming/ioi_utils.py
+[2026-08-09T16:55:56]     # 6 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/data.py
+[2026-08-09T16:55:56]     # 7 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/evaluation.py
+[2026-08-09T16:55:56]     # 8 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/routed_morph.py
+[2026-08-09T16:55:56]     # 9 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/routed_sandbox.py
+[2026-08-09T16:55:56]     #10 |   2 | 0.250 | 5.0 |  0.500 | 0.3750 | src/open_r1/utils/hub.py
+[2026-08-09T16:55:56]     #11 |   1 | 0.125 | 6.0 |  0.600 | 0.3625 | src/open_r1/utils/competitive_programming/ioi_scoring.py
+[2026-08-09T16:55:56]     #12 |   0 | 0.000 | 7.0 |  0.700 | 0.3500 | scripts/e2b_router.py
+[2026-08-09T16:55:56]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 25886, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'normalized-0to1', 'normalized': True, 'blended': True}
+[2026-08-09T16:55:56]   phase ai: 25.9s
+[2026-08-09T16:55:56] TOTAL: 38.5s
+[2026-08-09T17:25:40] analyzing https://github.com/SakshamManav/Interviewly
+[2026-08-09T17:25:42]   phase clone: 2.7s
+[2026-08-09T17:25:43]   phase sampling-prep: 0.1s (commits=2)
+[2026-08-09T17:25:43]   phase sampling: 0.2s
+[2026-08-09T17:25:43]   spikes: 0
+[2026-08-09T17:25:43]   phase spikes: 0.0s
+[2026-08-09T17:25:43]   file_metrics: 45, decay flags: 45
+[2026-08-09T17:25:43]   phase ownership: 0.1s
+[2026-08-09T17:25:43]   onboarding files: 44
+[2026-08-09T17:25:43]   phase onboarding: 0.3s
+[2026-08-09T17:25:46] ai-call Client/src/feature/auth/authAPI.js status=200 attempts=1 ms=1529 cat=core-business-logic score=8.0
+[2026-08-09T17:25:46] ai-call Client/src/Components/loader.js status=200 attempts=1 ms=1518 cat=reusable-utility score=3.0
+[2026-08-09T17:25:47] ai-call server/model/User.js status=200 attempts=1 ms=1417 cat=core-business-logic score=6.0
+[2026-08-09T17:25:47] ai-call Client/src/App.js status=200 attempts=1 ms=1233 cat=core-business-logic score=6.0
+[2026-08-09T17:25:47] ai-call Client/src/feature/interview/interviewAPI.js status=200 attempts=1 ms=1832 cat=core-business-logic score=6.0
+[2026-08-09T17:25:47] ai-call server/model/interview.js status=200 attempts=1 ms=1538 cat=core-business-logic score=8.0
+[2026-08-09T17:25:47] ai-call server/middleware/authentication.js status=200 attempts=1 ms=1440 cat=core-business-logic score=7.0
+[2026-08-09T17:25:48] ai-call server/middleware/rateLimiter.js status=200 attempts=1 ms=1842 cat=core-business-logic score=7.0
+[2026-08-09T17:25:49] ai-call Client/src/reportWebVitals.js status=200 attempts=1 ms=1110 cat=reusable-utility score=3.0
+[2026-08-09T17:25:50] ai-call server/db/db.js status=200 attempts=1 ms=1667 cat=infrastructure score=5.0
+[2026-08-09T17:25:50] ai-call Client/src/redux/store.js status=200 attempts=1 ms=1580 cat=core-business-logic score=6.0
+[2026-08-09T17:25:50] ai-call server/sockets/CodeEditor.js status=200 attempts=1 ms=1169 cat=core-business-logic score=6.0
+[2026-08-09T17:25:51] ai-call Client/src/sockets/socket.js status=200 attempts=1 ms=1621 cat=core-business-logic score=6.0
+[2026-08-09T17:25:51] ai-call server/routes/interview.js status=200 attempts=1 ms=1486 cat=core-business-logic score=6.0
+[2026-08-09T17:25:51] ai-call server/index.js status=200 attempts=1 ms=1074 cat=infrastructure score=7.0
+[2026-08-09T17:25:52] ai-call Client/src/index.js status=200 attempts=1 ms=1283 cat=infrastructure score=7.0
+[2026-08-09T17:25:53] ai-call server/routes/auth.js status=200 attempts=1 ms=1260 cat=core-business-logic score=7.0
+[2026-08-09T17:25:54] ai-call server/sockets/interview.js status=200 attempts=1 ms=1298 cat=core-business-logic score=6.0
+[2026-08-09T17:25:55] ai-call server/sockets/socket.js status=200 attempts=1 ms=1103 cat=infrastructure score=6.0
+[2026-08-09T17:25:56] ai-call Client/src/Components/authWrapper.js status=200 attempts=1 ms=1822 cat=core-business-logic score=6.0
+[2026-08-09T17:25:57] ai-call Client/src/feature/auth/authSlice.js status=200 attempts=1 ms=1983 cat=core-business-logic score=8.0
+[2026-08-09T17:25:59] ai-call Client/src/Components/Navbar.js status=200 attempts=1 ms=2570 cat=reusable-utility score=4.0
+[2026-08-09T17:26:03] ai-call Client/src/feature/interview/interviewSlice.js status=200 attempts=1 ms=4750 cat=core-business-logic score=6.0
+[2026-08-09T17:26:07] ai-call Client/src/Components/InterviewerNotesCard.js status=200 attempts=1 ms=11338 cat=core-business-logic score=6.0
+[2026-08-09T17:26:09] ai-call Client/src/Pages/Login.js status=200 attempts=1 ms=13657 cat=core-business-logic score=6.0
+[2026-08-09T17:26:09]   ai-score distribution (n=25): {3.0: 2, 4.0: 1, 5.0: 1, 6.0: 13, 7.0: 5, 8.0: 3}
+[2026-08-09T17:26:09]   pure-import-count order (reference): Client/src/feature/auth/authAPI.js(6), Client/src/Components/loader.js(5), Client/src/feature/interview/interviewAPI.js(4), server/model/User.js(3), server/model/interview.js(3), Client/src/App.js(3), server/middleware/authentication.js(2), server/middleware/rateLimiter.js(2), Client/src/reportWebVitals.js(1), Client/src/redux/store.js(1)
+[2026-08-09T17:26:09]   top-12 (rank | indeg | norm_struct | raw_ai | norm_ai | final=ai | path):
+[2026-08-09T17:26:09]     # 1 |   6 | 1.000 | 8.0 |  0.800 | 8.0000 | Client/src/feature/auth/authAPI.js
+[2026-08-09T17:26:09]     # 2 |   3 | 0.500 | 8.0 |  0.800 | 8.0000 | server/model/interview.js
+[2026-08-09T17:26:09]     # 3 |   1 | 0.167 | 8.0 |  0.800 | 8.0000 | Client/src/feature/auth/authSlice.js
+[2026-08-09T17:26:09]     # 4 |   2 | 0.333 | 7.0 |  0.700 | 7.0000 | server/middleware/authentication.js
+[2026-08-09T17:26:09]     # 5 |   2 | 0.333 | 7.0 |  0.700 | 7.0000 | server/middleware/rateLimiter.js
+[2026-08-09T17:26:09]     # 6 |   1 | 0.167 | 7.0 |  0.700 | 7.0000 | server/index.js
+[2026-08-09T17:26:09]     # 7 |   1 | 0.167 | 7.0 |  0.700 | 7.0000 | Client/src/index.js
+[2026-08-09T17:26:09]     # 8 |   1 | 0.167 | 7.0 |  0.700 | 7.0000 | server/routes/auth.js
+[2026-08-09T17:26:09]     # 9 |   4 | 0.667 | 6.0 |  0.600 | 6.0000 | Client/src/feature/interview/interviewAPI.js
+[2026-08-09T17:26:09]     #10 |   3 | 0.500 | 6.0 |  0.600 | 6.0000 | server/model/User.js
+[2026-08-09T17:26:09]     #11 |   3 | 0.500 | 6.0 |  0.600 | 6.0000 | Client/src/App.js
+[2026-08-09T17:26:09]     #12 |   1 | 0.167 | 6.0 |  0.600 | 6.0000 | Client/src/redux/store.js
+[2026-08-09T17:26:09]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 25975, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'ai-primary-structural-tiebreak', 'normalized': True, 'blended': True}
+[2026-08-09T17:26:09]   phase ai: 26.0s
+[2026-08-09T17:26:09] TOTAL: 29.5s
+[2026-08-09T17:28:13] analyzing https://github.com/laribright/food-delivery-application
+[2026-08-09T17:28:19]   phase clone: 6.0s
+[2026-08-09T17:28:19]   phase sampling-prep: 0.2s (commits=18)
+[2026-08-09T17:28:21]   phase sampling: 1.9s
+[2026-08-09T17:28:21]   spikes: 4
+[2026-08-09T17:28:21]   phase spikes: 0.0s
+[2026-08-09T17:28:21]   file_metrics: 130, decay flags: 0
+[2026-08-09T17:28:21]   phase ownership: 0.1s
+[2026-08-09T17:28:22]   onboarding files: 113
+[2026-08-09T17:28:22]   phase onboarding: 1.0s
+[2026-08-09T17:28:24] ai-call apps/api/src/auth/guards/jwt-auth.guard.ts status=200 attempts=1 ms=1614 cat=core-business-logic score=8.0
+[2026-08-09T17:28:24] ai-call apps/api/src/db/schema/index.ts status=200 attempts=1 ms=2030 cat=core-business-logic score=8.0
+[2026-08-09T17:28:25] ai-call apps/api/src/auth/auth.module.ts status=200 attempts=1 ms=2018 cat=core-business-logic score=8.0
+[2026-08-09T17:28:25] ai-call apps/api/src/auth/decorators/roles.decorator.ts status=200 attempts=1 ms=1922 cat=core-business-logic score=6.0
+[2026-08-09T17:28:26] ai-call apps/api/src/auth/guards/roles.guard.ts status=200 attempts=1 ms=2437 cat=core-business-logic score=7.0
+[2026-08-09T17:28:26] ai-call apps/api/src/gateway/orders.gateway.ts status=200 attempts=1 ms=2188 cat=core-business-logic score=6.0
+[2026-08-09T17:28:26] ai-call apps/api/src/db/schema/users.ts status=200 attempts=1 ms=2339 cat=core-business-logic score=6.0
+[2026-08-09T17:28:26] ai-call apps/api/src/gateway/gateway.module.ts status=200 attempts=1 ms=2735 cat=core-business-logic score=6.0
+[2026-08-09T17:28:28] ai-call apps/api/src/db/schema/restaurants.ts status=200 attempts=1 ms=1553 cat=core-business-logic score=6.0
+[2026-08-09T17:28:28] ai-call apps/mobile/src/components/themed-view.tsx status=200 attempts=1 ms=1907 cat=reusable-utility score=4.0
+[2026-08-09T17:28:29] ai-call apps/api/src/location/location.service.ts status=200 attempts=1 ms=1870 cat=core-business-logic score=6.0
+[2026-08-09T17:28:29] ai-call apps/api/src/cache/cache.service.ts status=200 attempts=1 ms=1106 cat=reusable-utility score=4.0
+[2026-08-09T17:28:31] ai-call apps/api/src/app.service.ts status=200 attempts=1 ms=1605 cat=core-business-logic score=3.0
+[2026-08-09T17:28:31] ai-call apps/api/src/cache/cache-keys.ts status=200 attempts=1 ms=1939 cat=reusable-utility score=3.0
+[2026-08-09T17:28:31] ai-call apps/mobile/src/components/themed-text.tsx status=200 attempts=1 ms=4041 cat=reusable-utility score=4.0
+[2026-08-09T17:28:32] ai-call apps/api/src/driver/driver.service.ts status=200 attempts=1 ms=3277 cat=core-business-logic score=6.0
+[2026-08-09T17:28:33] ai-call apps/api/src/auth/dto/login.dto.ts status=200 attempts=1 ms=1745 cat=reusable-utility score=3.0
+[2026-08-09T17:28:33] ai-call apps/api/src/menu/dto/create-menu-item.dto.ts status=200 attempts=1 ms=1672 cat=reusable-utility score=3.0
+[2026-08-09T17:28:34] ai-call apps/api/src/menu/dto/update-category.dto.ts status=200 attempts=1 ms=1657 cat=reusable-utility score=3.0
+[2026-08-09T17:28:34] ai-call apps/api/src/menu/dto/update-menu-item.dto.ts status=200 attempts=1 ms=1128 cat=reusable-utility score=3.0
+[2026-08-09T17:28:36] ai-call apps/api/src/restaurants/dto/create-restaurant.dto.ts status=200 attempts=1 ms=1171 cat=reusable-utility score=3.0
+[2026-08-09T17:28:37] ai-call apps/api/src/reviews/dto/create-review.dto.ts status=200 attempts=1 ms=1528 cat=reusable-utility score=3.0
+[2026-08-09T17:28:41] ai-call apps/api/src/uploadthing/upload-router.ts status=200 attempts=1 ms=4931 cat=core-business-logic score=6.0
+[2026-08-09T17:28:44] ai-call apps/api/src/restaurants/dto/update-restaurant.dto.ts status=200 attempts=1 ms=9077 cat=reusable-utility score=3.0
+[2026-08-09T17:28:48] ai-call apps/api/src/auth/dto/register.dto.ts status=200 attempts=1 ms=10403 cat=reusable-utility score=4.0
+[2026-08-09T17:28:48]   ai-score distribution (n=25): {3.0: 9, 4.0: 4, 6.0: 8, 7.0: 1, 8.0: 3}
+[2026-08-09T17:28:48]   pure-import-count order (reference): apps/api/src/db/schema/index.ts(10), apps/api/src/auth/auth.module.ts(8), apps/api/src/auth/guards/jwt-auth.guard.ts(8), apps/api/src/auth/decorators/roles.decorator.ts(7), apps/api/src/auth/guards/roles.guard.ts(6), apps/api/src/gateway/gateway.module.ts(4), apps/api/src/gateway/orders.gateway.ts(4), apps/api/src/db/schema/users.ts(3), apps/api/src/db/schema/restaurants.ts(3), apps/mobile/src/components/themed-view.tsx(3)
+[2026-08-09T17:28:48]   top-12 (rank | indeg | norm_struct | raw_ai | norm_ai | final=ai | path):
+[2026-08-09T17:28:48]     # 1 |  10 | 1.000 | 8.0 |  0.800 | 8.0000 | apps/api/src/db/schema/index.ts
+[2026-08-09T17:28:48]     # 2 |   8 | 0.800 | 8.0 |  0.800 | 8.0000 | apps/api/src/auth/auth.module.ts
+[2026-08-09T17:28:48]     # 3 |   8 | 0.800 | 8.0 |  0.800 | 8.0000 | apps/api/src/auth/guards/jwt-auth.guard.ts
+[2026-08-09T17:28:48]     # 4 |   6 | 0.600 | 7.0 |  0.700 | 7.0000 | apps/api/src/auth/guards/roles.guard.ts
+[2026-08-09T17:28:48]     # 5 |   7 | 0.700 | 6.0 |  0.600 | 6.0000 | apps/api/src/auth/decorators/roles.decorator.ts
+[2026-08-09T17:28:48]     # 6 |   4 | 0.400 | 6.0 |  0.600 | 6.0000 | apps/api/src/gateway/gateway.module.ts
+[2026-08-09T17:28:48]     # 7 |   4 | 0.400 | 6.0 |  0.600 | 6.0000 | apps/api/src/gateway/orders.gateway.ts
+[2026-08-09T17:28:48]     # 8 |   3 | 0.300 | 6.0 |  0.600 | 6.0000 | apps/api/src/db/schema/users.ts
+[2026-08-09T17:28:48]     # 9 |   3 | 0.300 | 6.0 |  0.600 | 6.0000 | apps/api/src/db/schema/restaurants.ts
+[2026-08-09T17:28:48]     #10 |   3 | 0.300 | 6.0 |  0.600 | 6.0000 | apps/api/src/location/location.service.ts
+[2026-08-09T17:28:48]     #11 |   3 | 0.300 | 6.0 |  0.600 | 6.0000 | apps/api/src/driver/driver.service.ts
+[2026-08-09T17:28:48]     #12 |   2 | 0.200 | 6.0 |  0.600 | 6.0000 | apps/api/src/uploadthing/upload-router.ts
+[2026-08-09T17:28:48]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 26061, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'ai-primary-structural-tiebreak', 'normalized': True, 'blended': True}
+[2026-08-09T17:28:48]   phase ai: 26.1s
+[2026-08-09T17:28:48] TOTAL: 35.3s
+[2026-08-09T17:53:15] analyzing https://github.com/SakshamManav/Mini-Database-Using-Cpp
+[2026-08-09T17:53:19]   phase clone: 4.5s
+[2026-08-09T17:53:20]   phase sampling-prep: 0.2s (commits=10)
+[2026-08-09T17:53:20]   phase sampling: 0.1s
+[2026-08-09T17:53:20]   spikes: 0
+[2026-08-09T17:53:20]   phase spikes: 0.0s
+[2026-08-09T17:53:20]   file_metrics: 1, decay flags: 0
+[2026-08-09T17:53:20]   phase ownership: 0.2s
+[2026-08-09T17:53:20]   onboarding files: 0
+[2026-08-09T17:53:20]   phase onboarding: 0.0s
+[2026-08-09T17:53:20]   phase ai: 0.0s
+[2026-08-09T17:53:20] TOTAL: 5.0s
+[2026-08-09T17:54:22] analyzing https://github.com/SakshamManav/Instagram-Clone
+[2026-08-09T17:54:26]   phase clone: 4.3s
+[2026-08-09T17:54:26]   phase sampling-prep: 0.2s (commits=22)
+[2026-08-09T17:54:28]   phase sampling: 1.3s
+[2026-08-09T17:54:28]   spikes: 0
+[2026-08-09T17:54:28]   phase spikes: 0.0s
+[2026-08-09T17:54:28]   file_metrics: 34, decay flags: 34
+[2026-08-09T17:54:28]   phase ownership: 0.2s
+[2026-08-09T17:54:28]   onboarding files: 33
+[2026-08-09T17:54:28]   phase onboarding: 0.4s
+[2026-08-09T17:54:31] ai-call backend/models/Content.js status=200 attempts=1 ms=1408 cat=core-business-logic score=6.0
+[2026-08-09T17:54:31] ai-call frontend/src/Context/Usercontext.js status=200 attempts=1 ms=1631 cat=core-business-logic score=8.0
+[2026-08-09T17:54:31] ai-call backend/models/Websocketmodel.js status=200 attempts=1 ms=1176 cat=core-business-logic score=5.0
+[2026-08-09T17:54:31] ai-call backend/models/user.js status=200 attempts=1 ms=1433 cat=core-business-logic score=6.0
+[2026-08-09T17:54:31] ai-call frontend/src/components/Alert.js status=200 attempts=1 ms=1123 cat=reusable-utility score=4.0
+[2026-08-09T17:54:31] ai-call backend/middleware/authenticateUser.js status=200 attempts=1 ms=1134 cat=infrastructure score=6.0
+[2026-08-09T17:54:32] ai-call backend/firebase.js status=200 attempts=1 ms=1888 cat=infrastructure score=6.0
+[2026-08-09T17:54:34] ai-call frontend/src/components/Messages.js status=200 attempts=1 ms=3252 cat=reusable-utility score=4.0
+[2026-08-09T17:54:34] ai-call frontend/src/components/Upload.js status=200 attempts=1 ms=1640 cat=core-business-logic score=6.0
+[2026-08-09T17:54:35] ai-call frontend/src/components/Login.js status=200 attempts=1 ms=2316 cat=core-business-logic score=6.0
+[2026-08-09T17:54:35] ai-call frontend/src/components/FollowersAndFollowingPopup.js status=200 attempts=1 ms=2712 cat=reusable-utility score=4.0
+[2026-08-09T17:54:35] ai-call frontend/src/components/Signup.js status=200 attempts=1 ms=1271 cat=core-business-logic score=6.0
+[2026-08-09T17:54:36] ai-call frontend/src/components/Rightsection.js status=200 attempts=1 ms=2300 cat=core-business-logic score=6.0
+[2026-08-09T17:54:36] ai-call frontend/src/components/Middlesection.js status=200 attempts=1 ms=2609 cat=core-business-logic score=6.0
+[2026-08-09T17:54:37] ai-call frontend/src/App.js status=200 attempts=1 ms=1855 cat=core-business-logic score=6.0
+[2026-08-09T17:54:38] ai-call frontend/src/components/Profile.js status=200 attempts=1 ms=1085 cat=core-business-logic score=6.0
+[2026-08-09T17:54:39] ai-call frontend/src/components/Chatspage.js status=200 attempts=1 ms=1958 cat=core-business-logic score=6.0
+[2026-08-09T17:54:40] ai-call frontend/src/components/Explore.js status=200 attempts=1 ms=1223 cat=reusable-utility score=2.0
+[2026-08-09T17:54:40] ai-call frontend/src/components/Reels.js status=200 attempts=1 ms=1496 cat=reusable-utility score=2.0
+[2026-08-09T17:54:41] ai-call frontend/src/components/Search.js status=200 attempts=1 ms=1842 cat=reusable-utility score=2.0
+[2026-08-09T17:54:41] ai-call backend/db.js status=200 attempts=1 ms=1814 cat=infrastructure score=4.0
+[2026-08-09T17:54:45] ai-call frontend/src/index.js status=200 attempts=1 ms=4687 cat=infrastructure score=4.0
+[2026-08-09T17:54:47] ai-call backend/routes/Websocket.js status=200 attempts=1 ms=4080 cat=core-business-logic score=6.0
+[2026-08-09T17:54:51] ai-call frontend/src/components/Post.js status=200 attempts=1 ms=10208 cat=core-business-logic score=6.0
+[2026-08-09T17:54:54] ai-call backend/routes/Content.js status=200 attempts=1 ms=10993 cat=core-business-logic score=6.0
+[2026-08-09T17:54:54]   ai-score distribution (n=25): {2.0: 3, 4.0: 5, 5.0: 1, 6.0: 15, 8.0: 1}
+[2026-08-09T17:54:54]   pure-import-count order (reference): frontend/src/Context/Usercontext.js(13), backend/models/Content.js(3), backend/models/user.js(2), backend/models/Websocketmodel.js(2), frontend/src/components/Alert.js(2), backend/firebase.js(2), backend/middleware/authenticateUser.js(2), frontend/src/components/Messages.js(2), frontend/src/components/Upload.js(2), frontend/src/components/Login.js(2)
+[2026-08-09T17:54:54]   top-12 (rank | indeg | norm_struct | raw_ai | norm_ai | final=ai | path):
+[2026-08-09T17:54:54]     # 1 |  13 | 1.000 | 8.0 |  0.800 | 8.0000 | frontend/src/Context/Usercontext.js
+[2026-08-09T17:54:54]     # 2 |   3 | 0.231 | 6.0 |  0.600 | 6.0000 | backend/models/Content.js
+[2026-08-09T17:54:54]     # 3 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | backend/models/user.js
+[2026-08-09T17:54:54]     # 4 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | backend/firebase.js
+[2026-08-09T17:54:54]     # 5 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | backend/middleware/authenticateUser.js
+[2026-08-09T17:54:54]     # 6 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Upload.js
+[2026-08-09T17:54:54]     # 7 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Login.js
+[2026-08-09T17:54:54]     # 8 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Middlesection.js
+[2026-08-09T17:54:54]     # 9 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Rightsection.js
+[2026-08-09T17:54:54]     #10 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Signup.js
+[2026-08-09T17:54:54]     #11 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/App.js
+[2026-08-09T17:54:54]     #12 |   2 | 0.154 | 6.0 |  0.600 | 6.0000 | frontend/src/components/Chatspage.js
+[2026-08-09T17:54:54]   ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 26390, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'ai-primary-structural-tiebreak', 'normalized': True, 'blended': True}
+[2026-08-09T17:54:54]   phase ai: 26.4s
+[2026-08-09T17:54:55] TOTAL: 32.7s

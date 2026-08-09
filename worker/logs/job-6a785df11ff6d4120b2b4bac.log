@@ -1,0 +1,38 @@
+analyzing https://github.com/laribright/gadgets-app-react-native
+  phase clone: 9.0s
+  phase sampling-prep: 0.2s (commits=2)
+  phase sampling: 0.1s
+  spikes: 0
+  phase spikes: 0.0s
+  file_metrics: 37, decay flags: 0
+  phase ownership: 0.1s
+  onboarding files: 31
+  phase onboarding: 0.2s
+ai-call src/lib/supabase.ts status=200 attempts=1 ms=2014 cat=infrastructure score=8.0
+ai-call src/providers/auth-provider.tsx status=200 attempts=1 ms=1918 cat=core-business-logic score=8.0
+ai-call src/types/database.types.ts status=200 attempts=1 ms=2116 cat=core-business-logic score=8.0
+ai-call src/api/api.ts status=200 attempts=1 ms=2641 cat=core-business-logic score=9.0
+ai-call src/store/cart-store.ts status=200 attempts=1 ms=2536 cat=core-business-logic score=8.0
+ai-call src/components/product-list-item.tsx status=200 attempts=1 ms=2540 cat=core-business-logic score=7.0
+ai-call src/utils/utils.ts status=200 attempts=1 ms=2531 cat=reusable-utility score=7.0
+ai-call src/api/subscriptions.ts status=200 attempts=1 ms=2650 cat=core-business-logic score=7.0
+ai-call src/providers/query-provider.tsx status=200 attempts=1 ms=1338 cat=infrastructure score=7.0
+ai-call supabase/functions/supabase.ts status=200 attempts=1 ms=1351 cat=core-business-logic score=8.0
+ai-call src/lib/stripe.ts status=200 attempts=1 ms=1499 cat=core-business-logic score=8.0
+ai-call src/providers/notification-provider.tsx status=200 attempts=1 ms=1199 cat=core-business-logic score=8.0
+ai-call src/components/list-header.tsx status=200 attempts=1 ms=1437 cat=core-business-logic score=8.0
+ai-call src/lib/notifications.ts status=200 attempts=1 ms=1283 cat=core-business-logic score=8.0
+ai-call babel.config.js status=200 attempts=1 ms=1302 cat=config score=5.0
+ai-call src/app/product/index.tsx status=200 attempts=1 ms=1602 cat=reusable-utility score=4.0
+ai-call App.tsx status=200 attempts=1 ms=1787 cat=core-business-logic score=5.0
+ai-call src/app/+not-found.tsx status=200 attempts=1 ms=1091 cat=core-business-logic score=4.0
+ai-call src/app/(shop)/orders/_layout.tsx status=200 attempts=1 ms=1172 cat=core-business-logic score=6.0
+ai-call src/app/categories/_layout.tsx status=200 attempts=1 ms=1237 cat=core-business-logic score=6.0
+ai-call src/app/product/_layout.tsx status=200 attempts=1 ms=1118 cat=core-business-logic score=6.0
+ai-call supabase/functions/stripe-checkout/index.ts status=200 attempts=1 ms=3254 cat=core-business-logic score=8.0
+ai-call src/app/(shop)/index.tsx status=200 attempts=1 ms=5318 cat=core-business-logic score=8.0
+ai-call src/app/(shop)/_layout.tsx status=200 attempts=1 ms=7511 cat=core-business-logic score=8.0
+ai-call src/app/_layout.tsx status=200 attempts=1 ms=13210 cat=core-business-logic score=8.0
+  ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 26265, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'normalized-0to1', 'normalized': True, 'blended': True}
+  phase ai: 26.3s
+TOTAL: 36.0s

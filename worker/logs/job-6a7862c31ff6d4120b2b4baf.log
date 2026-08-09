@@ -1,0 +1,53 @@
+analyzing https://github.com/laribright/gadgets-app-react-native
+  phase clone: 10.3s
+  phase sampling-prep: 0.2s (commits=2)
+  phase sampling: 0.1s
+  spikes: 0
+  phase spikes: 0.0s
+  file_metrics: 37, decay flags: 0
+  phase ownership: 0.1s
+  onboarding files: 31
+  phase onboarding: 0.3s
+ai-call src/providers/auth-provider.tsx status=200 attempts=1 ms=1314 cat=core-business-logic score=8.0
+ai-call src/api/api.ts status=200 attempts=1 ms=1726 cat=core-business-logic score=8.0
+ai-call src/lib/supabase.ts status=200 attempts=1 ms=1937 cat=core-business-logic score=9.0
+ai-call src/types/database.types.ts status=200 attempts=1 ms=1533 cat=core-business-logic score=8.0
+ai-call src/components/product-list-item.tsx status=200 attempts=1 ms=1197 cat=reusable-utility score=4.0
+ai-call src/utils/utils.ts status=200 attempts=1 ms=1239 cat=reusable-utility score=3.0
+ai-call src/store/cart-store.ts status=200 attempts=1 ms=2054 cat=core-business-logic score=6.0
+ai-call src/api/subscriptions.ts status=200 attempts=1 ms=1450 cat=core-business-logic score=5.0
+ai-call src/providers/query-provider.tsx status=200 attempts=1 ms=1262 cat=infrastructure score=3.0
+ai-call src/lib/stripe.ts status=200 attempts=1 ms=1063 cat=core-business-logic score=6.0
+ai-call supabase/functions/supabase.ts status=200 attempts=1 ms=1401 cat=core-business-logic score=7.0
+ai-call src/lib/notifications.ts status=200 attempts=1 ms=1592 cat=reusable-utility score=4.0
+ai-call babel.config.js status=200 attempts=1 ms=1083 cat=config score=2.0
+ai-call src/providers/notification-provider.tsx status=200 attempts=1 ms=3078 cat=infrastructure score=5.0
+ai-call src/components/list-header.tsx status=200 attempts=1 ms=3154 cat=core-business-logic score=6.0
+ai-call src/app/product/index.tsx status=200 attempts=1 ms=2200 cat=reusable-utility score=2.0
+ai-call App.tsx status=200 attempts=1 ms=1508 cat=infrastructure score=2.0
+ai-call src/app/+not-found.tsx status=200 attempts=1 ms=1293 cat=core-business-logic score=2.0
+ai-call src/app/(shop)/orders/_layout.tsx status=200 attempts=1 ms=1974 cat=core-business-logic score=3.0
+ai-call src/app/product/_layout.tsx status=200 attempts=1 ms=1712 cat=infrastructure score=3.0
+ai-call src/app/categories/_layout.tsx status=200 attempts=1 ms=2434 cat=infrastructure score=3.0
+ai-call supabase/functions/stripe-checkout/index.ts status=200 attempts=1 ms=3075 cat=core-business-logic score=6.0
+ai-call src/app/(shop)/_layout.tsx status=200 attempts=1 ms=5014 cat=core-business-logic score=6.0
+ai-call src/app/_layout.tsx status=200 attempts=1 ms=10391 cat=infrastructure score=5.0
+ai-call src/app/(shop)/index.tsx status=200 attempts=1 ms=11982 cat=core-business-logic score=4.0
+  ai-score distribution (n=25): {2.0: 4, 3.0: 5, 4.0: 3, 5.0: 3, 6.0: 5, 7.0: 1, 8.0: 3, 9.0: 1}
+  pure-import-count order (reference): src/lib/supabase.ts(7), src/api/api.ts(6), src/providers/auth-provider.tsx(4), src/types/database.types.ts(4), src/store/cart-store.ts(3), src/components/product-list-item.tsx(2), src/utils/utils.ts(1), src/api/subscriptions.ts(1), src/providers/query-provider.tsx(1), supabase/functions/supabase.ts(1)
+  top-12 pre-blend (rank | indeg | norm_struct | raw_ai | norm_ai | final | path):
+    # 1 |   7 | 1.000 | 9.0 |  0.900 | 0.9500 | src/lib/supabase.ts
+    # 2 |   6 | 0.857 | 8.0 |  0.800 | 0.8286 | src/api/api.ts
+    # 3 |   4 | 0.571 | 8.0 |  0.800 | 0.6857 | src/providers/auth-provider.tsx
+    # 4 |   4 | 0.571 | 8.0 |  0.800 | 0.6857 | src/types/database.types.ts
+    # 5 |   3 | 0.429 | 6.0 |  0.600 | 0.5143 | src/store/cart-store.ts
+    # 6 |   1 | 0.143 | 7.0 |  0.700 | 0.4214 | supabase/functions/supabase.ts
+    # 7 |   1 | 0.143 | 6.0 |  0.600 | 0.3714 | src/lib/stripe.ts
+    # 8 |   1 | 0.143 | 6.0 |  0.600 | 0.3714 | src/components/list-header.tsx
+    # 9 |   2 | 0.286 | 4.0 |  0.400 | 0.3429 | src/components/product-list-item.tsx
+    #10 |   1 | 0.143 | 5.0 |  0.500 | 0.3214 | src/api/subscriptions.ts
+    #11 |   1 | 0.143 | 5.0 |  0.500 | 0.3214 | src/providers/notification-provider.tsx
+    #12 |   0 | 0.000 | 6.0 |  0.600 | 0.3000 | supabase/functions/stripe-checkout/index.ts
+  ai-ranking: {'enabled': True, 'model': 'openai/gpt-4o-mini', 'shortlist_count': 25, 'classified_count': 25, 'fallback_count': 0, 'duration_ms': 25103, 'max_concurrent': 8, 'rate_limit_rpm': 18.0, 'retries': 2, 'quota_exhausted': False, 'billing_failed': False, 'quota_hits': 0, 'blend': 'normalized-0to1', 'normalized': True, 'blended': True}
+  phase ai: 25.1s
+TOTAL: 36.1s

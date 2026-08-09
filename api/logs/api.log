@@ -1,0 +1,112 @@
+[2026-08-09T08:19:47.275Z] report served  repoId=6a7836fcc03510019f0b0521  url=https://github.com/SakshamManav/School
+[2026-08-09T08:20:34.048Z] report served  repoId=6a7836fcc03510019f0b0521  url=https://github.com/SakshamManav/School
+[2026-08-09T08:20:34.215Z] report served  repoId=6a7836fcc03510019f0b0521  url=https://github.com/SakshamManav/School
+[2026-08-09T08:20:36.516Z] report served  repoId=6a7836fcc03510019f0b0521  url=https://github.com/SakshamManav/School
+[2026-08-09T08:20:36.565Z] report served  repoId=6a7836fcc03510019f0b0521  url=https://github.com/SakshamManav/School
+[2026-08-09T08:20:43.530Z] report served  repoId=6a7836fcc03510019f0b0521  url=https://github.com/SakshamManav/School
+[2026-08-09T08:20:55.511Z] report served  repoId=6a7836fcc03510019f0b0521  url=https://github.com/SakshamManav/School
+[2026-08-09T08:21:49.287Z] report served  repoId=6a7836fcc03510019f0b0521  url=https://github.com/SakshamManav/School
+[2026-08-09T08:21:49.406Z] report served  repoId=6a7836fcc03510019f0b0521  url=https://github.com/SakshamManav/School
+[2026-08-09T08:22:02.983Z] report served  repoId=6a782b35cd0e29a0a7dea8b7  url=https://github.com/axios/axios
+[2026-08-09T08:22:03.162Z] report served  repoId=6a782b35cd0e29a0a7dea8b7  url=https://github.com/axios/axios
+[2026-08-09T08:22:26.274Z] analyze requested  url=https://github.com/axios/axios  force=false
+[2026-08-09T08:22:26.277Z]   dedupe: already analyzed  jobId=6a776aff3aba2f84f271097e  (cached report served)
+[2026-08-09T08:57:38.867Z] analyze requested  url=https://github.com/SakshamManav/School  force=true
+[2026-08-09T08:57:38.964Z]   force re-analyze: purged previous run  jobId=6a7836fcc03510019f0b0521
+[2026-08-09T08:57:39.081Z]   queued  jobId=6a784102b8ac12870df26801  worker spawned
+[2026-08-09T08:58:12.857Z] report served  repoId=6a784102b8ac12870df26801  url=https://github.com/SakshamManav/School
+[2026-08-09T08:58:12.907Z] report served  repoId=6a784102b8ac12870df26801  url=https://github.com/SakshamManav/School
+[2026-08-09T08:58:52.057Z] analyze requested  url=https://github.com/SakshamManav/School  force=true
+[2026-08-09T08:58:52.100Z]   force re-analyze: purged previous run  jobId=6a784102b8ac12870df26801
+[2026-08-09T08:58:52.151Z]   queued  jobId=6a78414ce44b370a7f241386  worker spawned
+[2026-08-09T08:59:27.014Z] report served  repoId=6a78414ce44b370a7f241386  url=https://github.com/SakshamManav/School
+[2026-08-09T08:59:27.091Z] report served  repoId=6a78414ce44b370a7f241386  url=https://github.com/SakshamManav/School
+[2026-08-09T09:16:14.763Z] analyze requested  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform  force=true
+[2026-08-09T09:16:14.881Z]   force re-analyze: purged previous run  jobId=6a7771b00be3d1756ef3a443
+[2026-08-09T09:16:14.958Z]   queued  jobId=6a78455e2b251e538934458c  worker spawned
+[2026-08-09T09:17:19.855Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T09:17:20.116Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T09:17:32.279Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T09:17:32.389Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T10:37:03.115Z] analyze requested  url=https://github.com/suzyeaston/suzyeastonca  force=false
+[2026-08-09T10:37:03.276Z]   queued  jobId=6a78584f1ff6d4120b2b4baa  worker spawned
+[2026-08-09T10:37:49.165Z] report served  repoId=6a78584f1ff6d4120b2b4baa  url=https://github.com/suzyeaston/suzyeastonca
+[2026-08-09T10:37:49.353Z] report served  repoId=6a78584f1ff6d4120b2b4baa  url=https://github.com/suzyeaston/suzyeastonca
+[2026-08-09T10:39:02.868Z] analyze requested  url=https://github.com/suzyeaston/suzyeastonca  force=true
+[2026-08-09T10:39:02.897Z]   force re-analyze: purged previous run  jobId=6a78584f1ff6d4120b2b4baa
+[2026-08-09T10:39:02.951Z]   queued  jobId=6a7858c61ff6d4120b2b4bab  worker spawned
+[2026-08-09T10:39:41.887Z] report served  repoId=6a7858c61ff6d4120b2b4bab  url=https://github.com/suzyeaston/suzyeastonca
+[2026-08-09T10:39:41.937Z] report served  repoId=6a7858c61ff6d4120b2b4bab  url=https://github.com/suzyeaston/suzyeastonca
+[2026-08-09T10:57:48.262Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T10:57:48.683Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T10:58:16.965Z] analyze requested  url=https://github.com/expressjs/express  force=false
+[2026-08-09T10:58:16.970Z]   dedupe: already analyzed  jobId=6a7767f1158813c1b0ed849f  (cached report served)
+[2026-08-09T10:58:18.442Z] report served  repoId=6a7767f1158813c1b0ed849f  url=https://github.com/expressjs/express
+[2026-08-09T10:58:18.521Z] report served  repoId=6a7767f1158813c1b0ed849f  url=https://github.com/expressjs/express
+[2026-08-09T10:58:42.843Z] analyze requested  url=https://github.com/suzyeaston/suzyeastonca  force=false
+[2026-08-09T10:58:42.847Z]   dedupe: already analyzed  jobId=6a7858c61ff6d4120b2b4bab  (cached report served)
+[2026-08-09T10:58:43.834Z] report served  repoId=6a7858c61ff6d4120b2b4bab  url=https://github.com/suzyeaston/suzyeastonca
+[2026-08-09T10:58:43.889Z] report served  repoId=6a7858c61ff6d4120b2b4bab  url=https://github.com/suzyeaston/suzyeastonca
+[2026-08-09T11:00:05.573Z] analyze requested  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform  force=false
+[2026-08-09T11:00:05.575Z]   dedupe: already analyzed  jobId=6a78455e2b251e538934458c  (cached report served)
+[2026-08-09T11:00:06.501Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T11:00:06.606Z] report served  repoId=6a78455e2b251e538934458c  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T11:01:05.263Z] analyze requested  url=https://github.com/laribright/gadgets-app-react-native  force=false
+[2026-08-09T11:01:05.377Z]   queued  jobId=6a785df11ff6d4120b2b4bac  worker spawned
+[2026-08-09T11:01:43.246Z] report served  repoId=6a785df11ff6d4120b2b4bac  url=https://github.com/laribright/gadgets-app-react-native
+[2026-08-09T11:01:43.260Z] report served  repoId=6a785df11ff6d4120b2b4bac  url=https://github.com/laribright/gadgets-app-react-native
+[2026-08-09T11:08:57.534Z] analyze requested  url=https://github.com/student-care-tool/SchoolFlow  force=true
+[2026-08-09T11:08:57.641Z]   queued  jobId=6a785fc91ff6d4120b2b4bad  worker spawned
+[2026-08-09T11:13:46.155Z] analyze requested  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform  force=true
+[2026-08-09T11:13:46.223Z]   force re-analyze: purged previous run  jobId=6a78455e2b251e538934458c
+[2026-08-09T11:13:46.277Z]   queued  jobId=6a7860ea1ff6d4120b2b4bae  worker spawned
+[2026-08-09T11:18:10.287Z] report served  repoId=6a7860ea1ff6d4120b2b4bae  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T11:18:10.962Z] report served  repoId=6a7860ea1ff6d4120b2b4bae  url=https://github.com/SakshamManav/SchoolFlow-A-Real-Time-Educational-Operations-Platform
+[2026-08-09T11:21:39.615Z] analyze requested  url=https://github.com/laribright/gadgets-app-react-native  force=true
+[2026-08-09T11:21:39.661Z]   force re-analyze: purged previous run  jobId=6a785df11ff6d4120b2b4bac
+[2026-08-09T11:21:39.729Z]   queued  jobId=6a7862c31ff6d4120b2b4baf  worker spawned
+[2026-08-09T11:22:18.025Z] report served  repoId=6a7862c31ff6d4120b2b4baf  url=https://github.com/laribright/gadgets-app-react-native
+[2026-08-09T11:22:18.042Z] report served  repoId=6a7862c31ff6d4120b2b4baf  url=https://github.com/laribright/gadgets-app-react-native
+[2026-08-09T11:23:09.614Z] analyze requested  url=https://github.com/deepseek-ai/deepseek-v3  force=false
+[2026-08-09T11:23:09.675Z]   queued  jobId=6a78631d1ff6d4120b2b4bb0  worker spawned
+[2026-08-09T11:23:20.504Z] report served  repoId=6a78631d1ff6d4120b2b4bb0  url=https://github.com/deepseek-ai/deepseek-v3
+[2026-08-09T11:23:20.526Z] report served  repoId=6a78631d1ff6d4120b2b4bb0  url=https://github.com/deepseek-ai/deepseek-v3
+[2026-08-09T11:24:16.820Z] report served  repoId=6a78631d1ff6d4120b2b4bb0  url=https://github.com/deepseek-ai/deepseek-v3
+[2026-08-09T11:24:16.849Z] report served  repoId=6a78631d1ff6d4120b2b4bb0  url=https://github.com/deepseek-ai/deepseek-v3
+[2026-08-09T11:24:52.885Z] report served  repoId=6a78631d1ff6d4120b2b4bb0  url=https://github.com/deepseek-ai/deepseek-v3
+[2026-08-09T11:24:52.953Z] report served  repoId=6a78631d1ff6d4120b2b4bb0  url=https://github.com/deepseek-ai/deepseek-v3
+[2026-08-09T11:25:17.241Z] analyze requested  url=https://github.com/huggingface/open-r1  force=false
+[2026-08-09T11:25:17.329Z]   queued  jobId=6a78639d85722758c912303a  worker spawned
+[2026-08-09T11:25:58.067Z] report served  repoId=6a78639d85722758c912303a  url=https://github.com/huggingface/open-r1
+[2026-08-09T11:25:58.175Z] report served  repoId=6a78639d85722758c912303a  url=https://github.com/huggingface/open-r1
+[2026-08-09T11:31:10.121Z] report served  repoId=6a78639d85722758c912303a  url=https://github.com/huggingface/open-r1
+[2026-08-09T11:31:10.253Z] report served  repoId=6a78639d85722758c912303a  url=https://github.com/huggingface/open-r1
+[2026-08-09T11:32:11.030Z] report served  repoId=6a78639d85722758c912303a  url=https://github.com/huggingface/open-r1
+[2026-08-09T11:53:32.384Z] report served  repoId=6a78639d85722758c912303a  url=https://github.com/huggingface/open-r1
+[2026-08-09T11:53:32.500Z] report served  repoId=6a78639d85722758c912303a  url=https://github.com/huggingface/open-r1
+[2026-08-09T11:55:38.505Z] analyze requested  url=https://github.com/SakshamManav/Interviewly  force=false
+[2026-08-09T11:55:38.644Z]   queued  jobId=6a786aba85722758c912303b  worker spawned
+[2026-08-09T11:56:10.549Z] report served  repoId=6a786aba85722758c912303b  url=https://github.com/SakshamManav/Interviewly
+[2026-08-09T11:56:10.568Z] report served  repoId=6a786aba85722758c912303b  url=https://github.com/SakshamManav/Interviewly
+[2026-08-09T11:58:12.083Z] analyze requested  url=https://github.com/laribright/food-delivery-application  force=false
+[2026-08-09T11:58:12.142Z]   queued  jobId=6a786b5485722758c912303c  worker spawned
+[2026-08-09T11:58:49.948Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T11:58:49.985Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T12:05:49.408Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T12:05:49.736Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T12:11:21.052Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T12:11:21.142Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T12:11:24.142Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T12:11:24.171Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T12:13:23.552Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T12:13:24.035Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T12:23:12.970Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T12:23:13.078Z] report served  repoId=6a786b5485722758c912303c  url=https://github.com/laribright/food-delivery-application
+[2026-08-09T12:23:13.527Z] analyze requested  url=https://github.com/SakshamManav/Mini-Database-Using-Cpp  force=false
+[2026-08-09T12:23:13.681Z]   queued  jobId=6a787131c09110864961b614  worker spawned
+[2026-08-09T12:23:20.982Z] report served  repoId=6a787131c09110864961b614  url=https://github.com/SakshamManav/Mini-Database-Using-Cpp
+[2026-08-09T12:23:21.027Z] report served  repoId=6a787131c09110864961b614  url=https://github.com/SakshamManav/Mini-Database-Using-Cpp
+[2026-08-09T12:24:20.662Z] analyze requested  url=https://github.com/SakshamManav/Instagram-Clone  force=false
+[2026-08-09T12:24:20.708Z]   queued  jobId=6a787174c09110864961b615  worker spawned
+[2026-08-09T12:24:55.552Z] report served  repoId=6a787174c09110864961b615  url=https://github.com/SakshamManav/Instagram-Clone
+[2026-08-09T12:24:55.624Z] report served  repoId=6a787174c09110864961b615  url=https://github.com/SakshamManav/Instagram-Clone
