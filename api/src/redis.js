@@ -1,4 +1,3 @@
-import { RedisMemoryServer } from "redis-memory-server";
 import Redis from "ioredis";
 
 let redis = null;
@@ -7,6 +6,15 @@ let bootPromise = null;
 const REDIS_HOST = process.env.WAYFINDER_REDIS_HOST || "127.0.0.1";
 const REDIS_PORT = Number(process.env.WAYFINDER_REDIS_PORT || 6379);
 const REDIS_PASSWORD = process.env.WAYFINDER_REDIS_PASSWORD || undefined;
+
+let RedisMemoryServer = null;
+
+async function getRedisMemoryServer() {
+  if (!RedisMemoryServer) {
+    ({ RedisMemoryServer } = await import("redis-memory-server"));
+  }
+  return RedisMemoryServer;
+}
 
 export function connectRedis() {
   if (!bootPromise) {
@@ -51,7 +59,8 @@ export function connectRedis() {
         // no server yet: boot an embedded real Redis binary pinned to the port
         // the analysis worker expects.
       }
-      const server = new RedisMemoryServer({ instance: { port: REDIS_PORT } });
+      const MemoryServer = await getRedisMemoryServer();
+      const server = new MemoryServer({ instance: { port: REDIS_PORT } });
       await server.getPort(); // resolves once the binary is up
       redis = new Redis({ host: REDIS_HOST, port: REDIS_PORT, maxRetriesPerRequest: 2 });
       redis.on("error", () => {});
