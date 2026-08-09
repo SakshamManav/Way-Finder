@@ -19,6 +19,13 @@ zerops:
   - setup: frontend
     build:
       base: nodejs@22
+      envVariables:
+        # NEXT_PUBLIC_API_URL must be set as a secret variable named exactly
+        # "NEXT_PUBLIC_API_URL" (no prefix) on the frontend service in the
+        # Zerops dashboard. Zerops automatically exposes it to THIS build
+        # container as RUNTIME_NEXT_PUBLIC_API_URL — this line maps it to the
+        # name Next.js actually needs at build time.
+        NEXT_PUBLIC_API_URL: ${RUNTIME_NEXT_PUBLIC_API_URL}
       buildCommands:
         - cd frontend && npm ci && npm run build
         # Assemble the standalone runtime layout (same shape as the official
@@ -28,11 +35,6 @@ zerops:
         - mkdir -p ./app/.next
         - cp -r frontend/.next/static ./app/.next/static
         - cp -r frontend/public ./app/public
-      envVariables:
-        # Public HTTPS URL of the api service. Do NOT hardcode it here — set a
-        # dashboard service env var named RUNTIME_NEXT_PUBLIC_API_URL on the
-        # frontend service (the RUNTIME_ prefix injects it into the build
-        # container). Example: RUNTIME_NEXT_PUBLIC_API_URL=https://api-xxxx.zerops.app
       deployFiles:
         - app/~
       cache:
