@@ -39,7 +39,7 @@ import envutil
 # ---------------------------------------------------------------------------
 # Configuration (single place to tweak; also overridable via env)
 # ---------------------------------------------------------------------------
-AI_MODEL = os.environ.get("OPENROUTER_MODEL", "google/gemma-4-26b-a4b-it:free")
+AI_MODEL = os.environ.get("OPENROUTER_MODEL", "openai/gpt-4o-mini")
 AI_BASE_URL = os.environ.get("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
 # Per-call timeout. Free-tier models are slow (several seconds + queueing), so
 # this is generous; calls run concurrently, so batch wall-time stays bounded by
