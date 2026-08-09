@@ -29,11 +29,10 @@ zerops:
         - cp -r frontend/.next/static ./app/.next/static
         - cp -r frontend/public ./app/public
       envVariables:
-        # Public HTTPS URL of the api service (copy from the dashboard after
-        # import). Alternatively set a dashboard service env var named
-        # RUNTIME_NEXT_PUBLIC_API_URL — the RUNTIME_ prefix injects it at build
-        # time without editing this file.
-        NEXT_PUBLIC_API_URL: https://REPLACE-WITH-YOUR-API-URL
+        # Public HTTPS URL of the api service. Do NOT hardcode it here — set a
+        # dashboard service env var named RUNTIME_NEXT_PUBLIC_API_URL on the
+        # frontend service (the RUNTIME_ prefix injects it into the build
+        # container). Example: RUNTIME_NEXT_PUBLIC_API_URL=https://api-xxxx.zerops.app
       deployFiles:
         - app/~
       cache:
